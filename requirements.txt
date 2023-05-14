@@ -8,5 +8,9 @@ ipykernel
 notebook
 dill
 Flask
-
+six
+plotly
+pycaret
+catboost
+xgboost
 #-e .
