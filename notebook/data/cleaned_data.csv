@@ -128,7 +128,7 @@ IN,1000,1302.4,6000000,603948,MALE,JD,unmarried,47200,-69700,Multi-vehicle Colli
 IL,2000,1588.55,0,435758,MALE,MD,unmarried,59600,-32100,Single Vehicle Collision,Side Collision,Total Loss,Other,WV,Columbus,8,1,NO,0,0,?,40320,5760,28800,Suburu,2001,N
 IN,500,1399.26,0,611586,FEMALE,High School,own-child,70500,0,Parked Car,?,Minor Damage,Police,PA,Northbrook,9,1,?,2,0,?,3960,330,2970,BMW,1998,N
 OH,2000,1352.31,0,465263,MALE,College,wife,40700,-47300,Single Vehicle Collision,Front Collision,Major Damage,Fire,NY,Northbend,22,1,YES,0,3,YES,63840,10640,42560,BMW,2006,Y
-IL,1000,1139.0,6000000,617858,FEMALE,Masters,husband,42400,0,Multi-vehicle Collision,Front Collision,Major Damage,Fire,SC,Northbend,0,3,?,1,2,?,44730,4970,34790,Saab,2000,Y
+IL,1000,1139,6000000,617858,FEMALE,Masters,husband,42400,0,Multi-vehicle Collision,Front Collision,Major Damage,Fire,SC,Northbend,0,3,?,1,2,?,44730,4970,34790,Saab,2000,Y
 IN,1000,1397.67,0,607889,MALE,JD,wife,57900,0,Multi-vehicle Collision,Front Collision,Minor Damage,Other,NY,Arlington,0,3,YES,1,2,NO,84720,14120,56480,Ford,1999,N
 IN,500,823.17,0,455689,MALE,Masters,own-child,0,0,Multi-vehicle Collision,Front Collision,Major Damage,Other,WV,Columbus,3,3,?,2,2,NO,61500,6150,43050,Dodge,2012,N
 OH,500,965.13,0,450341,FEMALE,Masters,unmarried,60000,-54800,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,NC,Arlington,21,3,?,0,1,?,51000,8500,34000,Nissan,2013,N
@@ -224,11 +224,11 @@ OH,500,1451.01,0,460820,FEMALE,College,own-child,47800,0,Single Vehicle Collisio
 IL,1000,978.46,0,431121,FEMALE,High School,husband,0,0,Single Vehicle Collision,Side Collision,Total Loss,Fire,NY,Hillsdale,19,1,YES,0,0,NO,49060,8920,31220,Chevrolet,1995,N
 IL,500,1198.34,4000000,619735,MALE,Associate,wife,53000,-72500,Multi-vehicle Collision,Side Collision,Total Loss,Fire,NY,Columbus,17,3,?,1,1,NO,57060,6340,44380,Mercedes,1995,N
 IN,2000,1003.23,0,470485,FEMALE,Associate,not-in-family,0,0,Multi-vehicle Collision,Side Collision,Major Damage,Fire,VA,Arlington,23,3,?,0,3,YES,77880,12980,51920,Accura,2008,N
-IN,2000,1212.0,0,620473,MALE,Masters,unmarried,24400,-60500,Single Vehicle Collision,Front Collision,Total Loss,Ambulance,NY,Springfield,4,1,YES,0,1,YES,73500,7350,51450,Jeep,1999,N
+IN,2000,1212,0,620473,MALE,Masters,unmarried,24400,-60500,Single Vehicle Collision,Front Collision,Total Loss,Ambulance,NY,Springfield,4,1,YES,0,1,YES,73500,7350,51450,Jeep,1999,N
 IL,1000,1242.96,7000000,449800,FEMALE,High School,own-child,0,-37100,Multi-vehicle Collision,Rear Collision,Minor Damage,Other,NY,Riverwood,2,2,YES,2,0,?,88920,6840,68400,Accura,2010,N
 IL,1000,1053.02,0,602402,FEMALE,Associate,not-in-family,0,0,Single Vehicle Collision,Front Collision,Major Damage,Other,NY,Arlington,2,1,?,0,2,NO,47630,12990,30310,Toyota,2005,Y
 IL,500,1693.63,0,452456,FEMALE,MD,unmarried,0,-64000,Multi-vehicle Collision,Front Collision,Total Loss,Fire,WV,Hillsdale,10,3,YES,1,3,NO,59040,6560,45920,Saab,2015,N
-IL,1000,1257.1999999999998,0,439269,FEMALE,MD,other-relative,0,-67800,Single Vehicle Collision,Rear Collision,Minor Damage,Other,SC,Columbus,2,1,?,0,3,NO,79530,14460,57840,Accura,2000,N
+IL,1000,1257.2,0,439269,FEMALE,MD,other-relative,0,-67800,Single Vehicle Collision,Rear Collision,Minor Damage,Other,SC,Columbus,2,1,?,0,3,NO,79530,14460,57840,Accura,2000,N
 OH,1000,1083.72,0,617774,FEMALE,High School,wife,65600,-68200,Single Vehicle Collision,Side Collision,Total Loss,Other,NY,Columbus,18,1,NO,0,2,YES,53680,4880,43920,Honda,2005,N
 OH,1000,1138.42,6000000,477678,MALE,JD,own-child,36900,-55000,Single Vehicle Collision,Side Collision,Minor Damage,Police,SC,Arlington,18,1,NO,2,3,YES,33550,3050,24400,Volkswagen,2005,N
 IN,500,1072.62,0,444913,FEMALE,Masters,husband,39900,-60200,Multi-vehicle Collision,Side Collision,Total Loss,Other,WV,Springfield,7,4,?,2,1,YES,69100,6910,55280,Toyota,2006,N
@@ -247,7 +247,7 @@ OH,1000,773.99,0,458727,MALE,Associate,other-relative,0,-70300,Vehicle Theft,?,T
 IN,1000,1532.47,0,452587,FEMALE,Associate,other-relative,60300,-24700,Single Vehicle Collision,Rear Collision,Major Damage,Fire,NY,Arlington,7,1,YES,0,3,YES,75400,7540,52780,Dodge,2012,Y
 IL,1000,1340.56,0,433184,FEMALE,JD,not-in-family,0,0,Single Vehicle Collision,Side Collision,Minor Damage,Fire,NY,Northbend,19,1,YES,0,2,YES,58140,6460,45220,Saab,2008,N
 OH,500,1297.75,4000000,451280,FEMALE,JD,own-child,0,-41400,Multi-vehicle Collision,Rear Collision,Total Loss,Ambulance,SC,Columbus,15,3,?,0,1,?,98670,15180,68310,Chevrolet,2010,Y
-IL,1000,1257.1999999999998,0,603269,MALE,Masters,other-relative,25900,0,Parked Car,?,Minor Damage,Police,SC,Hillsdale,7,1,?,0,3,NO,5900,1180,4130,Mercedes,2009,N
+IL,1000,1257.2,0,603269,MALE,Masters,other-relative,25900,0,Parked Car,?,Minor Damage,Police,SC,Hillsdale,7,1,?,0,3,NO,5900,1180,4130,Mercedes,2009,N
 IN,2000,1025.54,0,442632,FEMALE,High School,other-relative,0,-52600,Single Vehicle Collision,Rear Collision,Major Damage,Fire,NC,Arlington,19,1,?,1,3,YES,64100,6410,51280,Chevrolet,2001,N
 OH,500,1264.77,0,447300,FEMALE,Associate,unmarried,47500,-32500,Multi-vehicle Collision,Rear Collision,Total Loss,Fire,SC,Springfield,13,2,YES,0,1,?,55440,5040,40320,Suburu,2009,Y
 OH,500,1459.97,5000000,441783,MALE,MD,other-relative,0,0,Multi-vehicle Collision,Side Collision,Major Damage,Police,SC,Northbend,2,3,NO,1,2,NO,80850,7350,58800,Ford,2011,Y
@@ -287,14 +287,14 @@ OH,2000,1388.58,0,459122,FEMALE,MD,own-child,0,-49400,Multi-vehicle Collision,Si
 IL,500,1310.76,0,476737,FEMALE,High School,not-in-family,0,-40900,Single Vehicle Collision,Front Collision,Total Loss,Other,VA,Northbrook,8,1,YES,0,1,?,70290,12780,51120,Accura,2008,N
 IN,1000,1004.63,6000000,460359,MALE,JD,not-in-family,26900,0,Multi-vehicle Collision,Rear Collision,Total Loss,Ambulance,SC,Hillsdale,14,3,YES,2,0,NO,63910,5810,46480,Suburu,1999,N
 OH,500,1134.91,0,452735,FEMALE,Associate,not-in-family,68700,0,Vehicle Theft,?,Trivial Damage,Police,SC,Riverwood,6,1,?,1,0,NO,6400,640,5120,Toyota,1997,N
-IN,1000,1194.0,0,613583,FEMALE,JD,husband,0,0,Single Vehicle Collision,Rear Collision,Major Damage,Ambulance,SC,Northbrook,6,1,YES,1,2,YES,66780,7420,51940,Ford,2013,Y
+IN,1000,1194,0,613583,FEMALE,JD,husband,0,0,Single Vehicle Collision,Rear Collision,Major Damage,Ambulance,SC,Northbrook,6,1,YES,1,2,YES,66780,7420,51940,Ford,2013,Y
 IN,1000,1248.25,4000000,605692,FEMALE,College,own-child,0,-33300,Parked Car,?,Minor Damage,Police,VA,Northbrook,8,1,NO,0,2,?,8760,1460,5840,BMW,2013,N
 OH,500,1338.54,-1000000,438178,MALE,Associate,wife,0,0,Single Vehicle Collision,Side Collision,Major Damage,Ambulance,NC,Arlington,13,1,YES,0,1,?,94160,8560,68480,Chevrolet,1996,N
 IL,2000,782.23,0,449221,MALE,College,other-relative,64200,-32300,Multi-vehicle Collision,Front Collision,Total Loss,Ambulance,OH,Springfield,0,3,?,0,2,NO,51570,5730,34380,BMW,2010,N
 IL,2000,1366.9,0,459322,FEMALE,High School,husband,0,-15700,Multi-vehicle Collision,Rear Collision,Major Damage,Fire,NC,Northbend,14,3,?,1,0,NO,52700,10540,31620,BMW,2014,Y
 IL,1000,1275.81,0,472657,MALE,High School,wife,0,-48300,Single Vehicle Collision,Side Collision,Minor Damage,Fire,NY,Columbus,13,1,YES,2,2,?,101010,15540,69930,Mercedes,1998,N
 IN,500,1090.65,0,608331,MALE,High School,unmarried,0,-51800,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,NC,Columbus,16,4,?,1,2,YES,53400,5340,42720,Honda,2010,Y
-IN,500,1326.0,0,438546,FEMALE,Associate,wife,0,-54600,Single Vehicle Collision,Side Collision,Total Loss,Fire,SC,Northbrook,13,1,?,1,2,NO,72120,12020,48080,Mercedes,2009,N
+IN,500,1326,0,438546,FEMALE,Associate,wife,0,-54600,Single Vehicle Collision,Side Collision,Total Loss,Fire,SC,Northbrook,13,1,?,1,2,NO,72120,12020,48080,Mercedes,2009,N
 IL,2000,972.47,0,441981,MALE,College,wife,0,-58100,Multi-vehicle Collision,Front Collision,Minor Damage,Police,PA,Hillsdale,15,3,YES,2,2,YES,77100,7710,53970,Audi,2010,N
 IL,500,806.31,0,602177,FEMALE,College,wife,0,0,Parked Car,?,Trivial Damage,Police,SC,Northbend,3,1,?,2,3,?,3300,600,2700,Dodge,2003,N
 IL,500,1416.24,0,441659,FEMALE,MD,not-in-family,0,0,Parked Car,?,Minor Damage,Police,WV,Northbend,7,1,YES,1,0,?,5940,1080,4320,Nissan,2003,N
@@ -414,9 +414,9 @@ OH,1000,1117.17,0,473645,FEMALE,High School,not-in-family,0,-29900,Parked Car,?,
 OH,2000,1101.51,0,619108,FEMALE,College,not-in-family,64000,0,Multi-vehicle Collision,Front Collision,Minor Damage,Fire,NY,Riverwood,22,3,NO,2,2,NO,69480,11580,46320,Chevrolet,2008,N
 IL,1000,1523.17,0,610479,MALE,Masters,own-child,0,0,Multi-vehicle Collision,Front Collision,Major Damage,Fire,PA,Northbend,10,3,?,1,2,YES,94560,7880,70920,Jeep,1995,N
 OH,1000,984.45,0,474998,MALE,Associate,unmarried,0,0,Vehicle Theft,?,Minor Damage,Police,NC,Riverwood,4,1,YES,1,2,?,7800,780,6240,Dodge,1997,N
-OH,2000,1257.0,4000000,616341,FEMALE,High School,unmarried,63900,-43700,Single Vehicle Collision,Front Collision,Total Loss,Other,WV,Northbrook,23,1,NO,1,3,NO,61270,5570,44560,Suburu,1999,N
+OH,2000,1257,4000000,616341,FEMALE,High School,unmarried,63900,-43700,Single Vehicle Collision,Front Collision,Total Loss,Other,WV,Northbrook,23,1,NO,1,3,NO,61270,5570,44560,Suburu,1999,N
 OH,500,1434.51,0,460535,FEMALE,Masters,wife,0,0,Single Vehicle Collision,Rear Collision,Total Loss,Police,NY,Riverwood,19,1,?,0,2,YES,71440,8930,53580,Mercedes,2005,N
-OH,2000,1628.0,0,606487,FEMALE,JD,unmarried,0,0,Single Vehicle Collision,Rear Collision,Total Loss,Ambulance,NY,Hillsdale,22,1,YES,1,2,YES,55600,11120,38920,Jeep,2009,N
+OH,2000,1628,0,606487,FEMALE,JD,unmarried,0,0,Single Vehicle Collision,Rear Collision,Total Loss,Ambulance,NY,Hillsdale,22,1,YES,1,2,YES,55600,11120,38920,Jeep,2009,N
 IN,500,1412.31,0,620737,MALE,High School,unmarried,0,0,Vehicle Theft,?,Trivial Damage,Police,NC,Riverwood,6,1,NO,1,3,NO,5000,1000,3500,Jeep,2005,N
 IL,500,1362.87,5000000,445904,FEMALE,JD,own-child,56900,-56900,Single Vehicle Collision,Side Collision,Minor Damage,Other,NY,Springfield,6,1,NO,2,0,?,95810,14740,66330,BMW,2007,N
 IN,1000,1134.68,0,464145,FEMALE,College,husband,0,0,Single Vehicle Collision,Rear Collision,Major Damage,Ambulance,SC,Northbend,18,1,NO,2,2,?,69300,6930,48510,Volkswagen,1996,N
@@ -604,7 +604,7 @@ IN,500,671.92,0,468300,MALE,Masters,wife,0,-26400,Single Vehicle Collision,Front
 IL,1000,1358.03,0,612660,MALE,JD,own-child,59300,-31400,Single Vehicle Collision,Rear Collision,Total Loss,Other,SC,Hillsdale,0,1,NO,2,1,?,55000,10000,35000,Volkswagen,2008,Y
 IN,1000,1008.79,4000000,466691,FEMALE,Masters,own-child,46000,0,Vehicle Theft,?,Trivial Damage,Police,WV,Columbus,19,1,NO,2,3,?,4400,0,3850,Toyota,2000,N
 OH,1000,1141.1,0,468515,MALE,JD,other-relative,0,0,Multi-vehicle Collision,Side Collision,Minor Damage,Police,SC,Hillsdale,15,2,?,0,1,YES,71640,5970,53730,Toyota,2008,N
-OH,1000,1397.0,0,614521,MALE,High School,not-in-family,0,0,Single Vehicle Collision,Rear Collision,Minor Damage,Other,NY,Arlington,6,1,NO,1,0,NO,61740,6860,48020,Accura,1997,N
+OH,1000,1397,0,614521,MALE,High School,not-in-family,0,0,Single Vehicle Collision,Rear Collision,Minor Damage,Other,NY,Arlington,6,1,NO,1,0,NO,61740,6860,48020,Accura,1997,N
 OH,1000,1664.66,0,465921,FEMALE,Associate,own-child,0,-66200,Single Vehicle Collision,Side Collision,Total Loss,Ambulance,SC,Springfield,3,1,?,0,3,?,57500,5750,46000,Audi,2010,N
 IN,1000,1151.39,4000000,604555,FEMALE,Masters,wife,0,-63900,Parked Car,?,Minor Damage,Police,NY,Springfield,17,1,YES,0,0,?,8700,870,6090,Accura,2003,N
 OH,2000,1546.01,0,616276,FEMALE,MD,wife,0,0,Multi-vehicle Collision,Front Collision,Total Loss,Police,VA,Riverwood,4,4,NO,2,1,?,77100,15420,53970,Volkswagen,1996,N
@@ -762,7 +762,7 @@ OH,1000,919.37,0,459537,FEMALE,Associate,not-in-family,83600,0,Single Vehicle Co
 OH,1000,1377.23,0,440757,FEMALE,Masters,unmarried,72600,0,Multi-vehicle Collision,Side Collision,Minor Damage,Other,NY,Hillsdale,1,3,?,2,1,?,52290,5810,34860,Nissan,1997,N
 IL,1000,995.55,5000000,604948,MALE,College,wife,51500,-52100,Multi-vehicle Collision,Rear Collision,Major Damage,Police,SC,Arlington,19,3,YES,0,3,?,68200,12400,43400,Jeep,2007,Y
 IL,500,1508.12,6000000,433275,MALE,PhD,wife,0,0,Multi-vehicle Collision,Rear Collision,Major Damage,Other,NY,Columbus,0,3,?,2,1,NO,60750,13500,40500,Jeep,2015,Y
-IN,500,1257.1999999999998,0,608309,FEMALE,College,wife,21100,-60800,Multi-vehicle Collision,Front Collision,Major Damage,Fire,SC,Arlington,2,3,?,0,2,YES,65560,11920,41720,Volkswagen,2015,Y
+IN,500,1257.2,0,608309,FEMALE,College,wife,21100,-60800,Multi-vehicle Collision,Front Collision,Major Damage,Fire,SC,Arlington,2,3,?,0,2,YES,65560,11920,41720,Volkswagen,2015,Y
 IN,1000,1561.41,0,462767,FEMALE,High School,husband,21200,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,NY,Arlington,5,3,YES,1,3,NO,70290,12780,44730,Mercedes,2012,N
 OH,500,1457.21,0,471785,FEMALE,JD,own-child,46300,0,Single Vehicle Collision,Rear Collision,Total Loss,Ambulance,SC,Columbus,6,1,?,2,0,YES,45000,5000,35000,Suburu,2003,N
 IL,1000,1128.71,0,601397,FEMALE,JD,other-relative,0,-47100,Multi-vehicle Collision,Rear Collision,Total Loss,Fire,VA,Riverwood,21,3,YES,2,1,?,61800,12360,43260,Suburu,2007,N
@@ -784,7 +784,7 @@ IN,1000,1425.79,0,604147,FEMALE,MD,other-relative,62400,-52300,Single Vehicle Co
 OH,2000,1615.14,0,606638,FEMALE,Associate,other-relative,67100,0,Vehicle Theft,?,Minor Damage,Police,NY,Springfield,6,1,NO,0,1,?,3740,680,2380,Chevrolet,2011,N
 IL,500,1236.5,0,619620,MALE,PhD,husband,0,-48700,Parked Car,?,Trivial Damage,Police,NY,Hillsdale,1,1,NO,0,1,NO,5060,460,3680,Nissan,2003,N
 IL,2000,1017.97,0,441671,FEMALE,MD,wife,59900,-34800,Multi-vehicle Collision,Front Collision,Total Loss,Police,WV,Columbus,21,3,NO,0,0,YES,35860,3260,26080,BMW,2005,Y
-IN,2000,1306.0,0,610381,MALE,Associate,husband,46100,-46900,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,NY,Columbus,3,3,YES,2,1,?,50050,7700,38500,Ford,2008,Y
+IN,2000,1306,0,610381,MALE,Associate,husband,46100,-46900,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,NY,Columbus,3,3,YES,2,1,?,50050,7700,38500,Ford,2008,Y
 IL,2000,1174.14,0,602416,MALE,College,unmarried,50400,-61500,Multi-vehicle Collision,Rear Collision,Minor Damage,Fire,NY,Northbend,14,4,YES,0,0,NO,59070,10740,42960,Toyota,2012,N
 IN,1000,1231.01,0,459562,MALE,College,husband,0,-31700,Multi-vehicle Collision,Front Collision,Minor Damage,Fire,SC,Riverwood,19,3,NO,1,2,?,28440,3160,22120,Dodge,2007,N
 IL,500,1299.18,0,463271,FEMALE,College,wife,57100,0,Single Vehicle Collision,Front Collision,Major Damage,Fire,OH,Springfield,7,1,YES,2,1,YES,45540,8280,28980,Honda,1998,Y
@@ -919,7 +919,7 @@ OH,500,922.85,0,471148,MALE,High School,husband,70300,-70900,Vehicle Theft,?,Tri
 OH,2000,1107.59,3000000,468202,MALE,PhD,not-in-family,65400,0,Single Vehicle Collision,Side Collision,Major Damage,Other,NY,Columbus,23,1,NO,1,3,NO,62640,10440,41760,Mercedes,2009,N
 IL,500,1272.46,0,456959,MALE,College,wife,0,0,Multi-vehicle Collision,Front Collision,Minor Damage,Ambulance,NY,Northbrook,7,3,YES,2,1,?,69630,12660,50640,Toyota,1998,N
 IL,1000,1340.24,0,447274,MALE,High School,own-child,0,-68800,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,NY,Hillsdale,8,3,YES,1,0,?,76010,13820,55280,Dodge,1995,Y
-OH,1000,1648.0,0,608405,MALE,JD,not-in-family,57700,-43500,Single Vehicle Collision,Rear Collision,Total Loss,Other,WV,Northbrook,17,1,NO,1,0,YES,44220,8040,32160,Accura,2000,N
+OH,1000,1648,0,608405,MALE,JD,not-in-family,57700,-43500,Single Vehicle Collision,Rear Collision,Total Loss,Other,WV,Northbrook,17,1,NO,1,0,YES,44220,8040,32160,Accura,2000,N
 IL,500,1381.14,0,472253,FEMALE,College,wife,0,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Other,NY,Northbrook,10,3,NO,0,3,NO,57200,5200,41600,BMW,2011,N
 IL,500,1198.44,0,438923,MALE,MD,wife,0,0,Vehicle Theft,?,Minor Damage,Police,WV,Columbus,9,1,NO,0,3,NO,3080,560,1960,Nissan,1998,N
 OH,2000,951.27,0,607131,FEMALE,PhD,not-in-family,42100,0,Single Vehicle Collision,Rear Collision,Total Loss,Other,SC,Hillsdale,2,1,YES,1,0,YES,75790,13780,55120,Accura,2007,N
@@ -961,10 +961,10 @@ OH,1000,1004.14,0,459889,MALE,Masters,wife,35400,0,Multi-vehicle Collision,Front
 OH,500,1107.07,0,478868,FEMALE,High School,husband,0,-45300,Vehicle Theft,?,Minor Damage,Police,VA,Hillsdale,21,1,NO,0,0,YES,3300,600,2100,Saab,2008,N
 IL,500,1429.96,0,463307,FEMALE,JD,husband,67800,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,NY,Northbend,11,3,NO,1,2,YES,57200,11440,40040,Toyota,2005,N
 IN,1000,1074.99,0,453620,FEMALE,Associate,husband,0,-48800,Vehicle Theft,?,Trivial Damage,Police,VA,Columbus,16,1,?,2,0,?,7590,1380,5520,Accura,2012,N
-OH,1000,1007.0,0,466238,FEMALE,PhD,unmarried,30400,-89400,Single Vehicle Collision,Rear Collision,Total Loss,Police,VA,Arlington,9,1,NO,0,2,?,80080,12320,55440,Chevrolet,2013,N
+OH,1000,1007,0,466238,FEMALE,PhD,unmarried,30400,-89400,Single Vehicle Collision,Rear Collision,Total Loss,Police,VA,Arlington,9,1,NO,0,2,?,80080,12320,55440,Chevrolet,2013,N
 OH,500,1052.85,0,607697,FEMALE,MD,other-relative,0,-70100,Vehicle Theft,?,Minor Damage,Police,WV,Riverwood,8,1,NO,0,0,YES,4800,960,3360,BMW,2006,N
 IN,1000,1200.33,4000000,477631,FEMALE,High School,own-child,0,-36400,Vehicle Theft,?,Minor Damage,Police,WV,Springfield,7,1,?,2,1,YES,3900,390,2730,Volkswagen,2008,Y
-IL,1000,1343.0,0,443625,MALE,Masters,other-relative,64600,0,Single Vehicle Collision,Front Collision,Minor Damage,Other,SC,Arlington,12,1,?,0,0,NO,90400,9040,72320,BMW,1995,N
+IL,1000,1343,0,443625,MALE,Masters,other-relative,64600,0,Single Vehicle Collision,Front Collision,Minor Damage,Other,SC,Arlington,12,1,?,0,0,NO,90400,9040,72320,BMW,1995,N
 OH,2000,1441.6,5000000,472223,FEMALE,MD,own-child,0,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Other,NC,Columbus,21,3,YES,0,0,?,62900,6290,44030,Jeep,1998,N
 OH,1000,1433.42,6000000,608328,FEMALE,Associate,own-child,53800,0,Single Vehicle Collision,Rear Collision,Major Damage,Police,NC,Arlington,4,1,YES,1,2,NO,54200,5420,37940,Nissan,2014,Y
 OH,2000,1368.57,0,474860,FEMALE,MD,other-relative,0,0,Multi-vehicle Collision,Side Collision,Major Damage,Police,NY,Northbend,18,3,NO,2,2,YES,51800,5180,36260,Accura,2003,N
