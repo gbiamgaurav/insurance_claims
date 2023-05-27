@@ -17,3 +17,13 @@
 2. Install dependencies
 
 `pip install -r requirements.txt`
+
+
+Workflow to be followed : 
+
+1. Update the components/class
+
+2. Update the utils/to save custom functions
+
+3. Update data_ingestion.py to finally run
+

@@ -11,6 +11,8 @@ from joblib import dump
 from src.exception import CustomException
 from src.logger import logging
 from src.components.data_transformation import DataTransformation, DataTransformationConfig
+from src.components.model_training import ModelTrainerConfig, ModelTrainer
+from src.utils.utils import save_object, load_object, evaluate_models
 
 @dataclass
 class DataIngestionConfig:
@@ -70,3 +72,13 @@ if __name__ == "__main__":
         logging.info("Preprocessor object saved successfully")
     except Exception as e:
         logging.error("Failed to save the preprocessor object: " + str(e))
+        
+    
+    modeltrainer = ModelTrainer()
+    try:
+        acc_score, p_score = modeltrainer.initiate_model_trainer(train_arr, test_arr)
+        logging.info(f"Accuracy Score: {acc_score}")
+        logging.info(f"Precision Score: {p_score}")
+        
+    except Exception as e:
+        raise CustomException(e, sys)
