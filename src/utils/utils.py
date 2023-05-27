@@ -45,24 +45,19 @@ def load_object(file_path):
         raise CustomException(e, sys)
     
     
-def evaluate_models(X_train, y_train, X_test, y_test, models):
+def evaluate_models(X_train, y_train, X_test, y_test, models, selected_model=None):
     try:
         report = {}
 
-        for model_name, model in models.items():
-            if isinstance(model, XGBClassifier):
-                le = LabelEncoder()
-                y_train_encoded = le.fit_transform(y_train)
-                y_test_encoded = le.transform(y_test)
-                
-                model.fit(X_train, y_train_encoded)  # Fit the model
+        if selected_model:
+            model_names = [selected_model]
+            model_list = [(selected_model, models[selected_model])]
+        else:
+            model_names = models.keys()
+            model_list = models.items()
 
-                y_train_pred = model.predict(X_train)
-                y_test_pred = model.predict(X_test)
-
-                train_model_score = accuracy_score(y_train_encoded, y_train_pred)
-                test_model_score = accuracy_score(y_test_encoded, y_test_pred)
-            else:
+        for model_name, model in model_list:
+            if isinstance(model, (RandomForestClassifier, XGBClassifier)):
                 model.fit(X_train, y_train)  # Fit the model
 
                 y_train_pred = model.predict(X_train)
@@ -71,7 +66,7 @@ def evaluate_models(X_train, y_train, X_test, y_test, models):
                 train_model_score = accuracy_score(y_train, y_train_pred)
                 test_model_score = accuracy_score(y_test, y_test_pred)
 
-            report[model_name] = test_model_score
+                report[model_name] = test_model_score
 
         return report
 

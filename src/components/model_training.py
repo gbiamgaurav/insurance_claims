@@ -1,27 +1,9 @@
 import os
 import sys
 from dataclasses import dataclass
-from catboost import CatBoostClassifier
-from sklearn.ensemble import (
-    RandomForestClassifier,
-    AdaBoostClassifier,
-    GradientBoostingClassifier
-)
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import (
-    accuracy_score,
-    classification_report,
-    precision_score,
-    recall_score,
-    f1_score,
-    roc_auc_score,
-    roc_curve,
-    confusion_matrix
-)
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, precision_score
 from xgboost import XGBClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.svm import SVC
 from src.exception import CustomException
 from src.logger import logging
 from src.utils.utils import save_object, load_object, evaluate_models
@@ -47,12 +29,7 @@ class ModelTrainer:
 
             models = {
                 "RandomForest": RandomForestClassifier(),
-                "DecisionTree": DecisionTreeClassifier(),
-                "GradientBoosting": GradientBoostingClassifier(),
-                "LogisticRegression": LogisticRegression(),
                 "XGBClassifier": XGBClassifier(),
-                "CatboostingClassifier": CatBoostClassifier(verbose=False),
-                "AdaBoostClassifier": AdaBoostClassifier(),
             }
 
             model_report: dict = evaluate_models(X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test, models=models)
