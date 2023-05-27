@@ -1,4 +1,3 @@
-
 import os
 import sys
 from dataclasses import dataclass
@@ -56,46 +55,7 @@ class ModelTrainer:
                 "AdaBoostClassifier": AdaBoostClassifier(),
             }
 
-            params = {
-                "RandomForest": {
-                    "n_estimators": [100, 200, 300],
-                    "max_depth": [None, 5, 10],
-                    "min_samples_split": [2, 5, 10],
-                    "min_samples_leaf": [1, 2, 4],
-                },
-                "DecisionTree": {
-                    "max_depth": [None, 5, 10],
-                    "min_samples_split": [2, 5, 10],
-                    "min_samples_leaf": [1, 2, 4],
-                },
-                "GradientBoosting": {
-                    "n_estimators": [100, 200, 300],
-                    "learning_rate": [0.1, 0.05, 0.01],
-                    "max_depth": [3, 5, 10],
-                    "min_samples_split": [2, 5, 10],
-                },
-                "LogisticRegression": {
-                    "C": [1.0, 0.1, 0.01],
-                    "penalty": ["l1", "l2"],
-                },
-                "XGBClassifier": {
-                    "n_estimators": [100, 200, 300],
-                    "learning_rate": [0.1, 0.05, 0.01],
-                    "max_depth": [3, 5, 10],
-                    "min_child_weight": [1, 2, 4],
-                },
-                "CatboostingClassifier": {
-                    "iterations": [100, 200, 300],
-                    "learning_rate": [0.1, 0.05, 0.01],
-                    "depth": [3, 5, 10],
-                },
-                "AdaBoostClassifier": {
-                    "n_estimators": [50, 100, 200],
-                    "learning_rate": [1.0, 0.1, 0.01],
-                },
-            }
-
-            model_report: dict = evaluate_models(X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test, models=models, params=params)
+            model_report: dict = evaluate_models(X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test, models=models)
 
             # Get the best model score from dict
             best_model_score = max(sorted(model_report.values()))
@@ -120,10 +80,3 @@ class ModelTrainer:
 
         except Exception as e:
             raise CustomException(e, sys)
-
-
-
-
-
-
-

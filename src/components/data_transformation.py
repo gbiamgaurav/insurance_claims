@@ -9,10 +9,12 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import RobustScaler
 from sklearn.preprocessing import OrdinalEncoder
 from imblearn.combine import SMOTETomek
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import LabelEncoder
 from src.utils.utils import save_object
 from src.exception import CustomException
 from src.logger import logging
-
+from kneed import KneeLocator
 
 @dataclass
 class DataTransformationConfig:
@@ -28,21 +30,22 @@ class DataTransformation:
         """ This function is responsible for data transformation """
         try:
             numerical_columns = ['policy_deductable', 'policy_annual_premium', 'umbrella_limit',
-                                'insured_zip', 'capital-gains', 'capital-loss',
-                                'incident_hour_of_the_day', 'number_of_vehicles_involved',
-                                'bodily_injuries', 'witnesses', 'total_claim_amount', 'injury_claim',
-                                'vehicle_claim', 'auto_year']
+                                 'insured_zip', 'capital-gains', 'capital-loss',
+                                 'incident_hour_of_the_day', 'number_of_vehicles_involved',
+                                 'bodily_injuries', 'witnesses', 'total_claim_amount', 'injury_claim',
+                                 'vehicle_claim', 'auto_year']
 
             categorical_columns = ['policy_state', 'insured_sex', 'insured_education_level',
-                                   'insured_relationship', 'incident_type', 'collision_type',
-                                   'incident_severity', 'authorities_contacted', 'incident_state',
-                                   'incident_city', 'property_damage', 'police_report_available',
-                                   'auto_make']
+                                    'insured_relationship', 'incident_type', 'collision_type',
+                                    'incident_severity', 'authorities_contacted', 'incident_state',
+                                    'incident_city', 'property_damage', 'police_report_available',
+                                    'auto_make']
 
             num_pipeline = Pipeline(
                 steps=[
                     ("imputer", SimpleImputer(strategy="median")),
-                    ("robustscaler", RobustScaler())
+                    ("robustscaler", RobustScaler()),
+                    ("pca", PCA(n_components=len(numerical_columns)))
                 ]
             )
 
@@ -64,13 +67,13 @@ class DataTransformation:
             return preprocessor
             logging.info("Preprocessor file obtained")
         except Exception as e:
-            raise CustomException(e, sys)
+            raise CustomException("Error occurred while obtaining the preprocessor object", sys)
 
     def initiate_data_transformation(self, train_path, test_path):
         try:
             train_df = pd.read_csv(train_path)
             test_df = pd.read_csv(test_path)
-            
+
             logging.info("Read train and test data completed")
             logging.info("Obtaining preprocessing object")
 
@@ -82,8 +85,21 @@ class DataTransformation:
             input_feature_test_df = test_df.drop(columns=[self.target_column_name], axis=1)
             target_feature_test_df = test_df[self.target_column_name]
 
+            # Encode target column with binary labels
+            label_encoder = LabelEncoder()
+            target_feature_train_df = label_encoder.fit_transform(target_feature_train_df)
+            target_feature_test_df = label_encoder.transform(target_feature_test_df)
+
             preprocessor = self.get_data_transformer_object()
             preprocessing_obj = preprocessor.fit(input_feature_train_df)
+
+            # Perform PCA to determine the optimal number of components
+            pca = preprocessing_obj.named_transformers_['num_pipeline']['pca']
+            explained_variance = np.cumsum(pca.explained_variance_ratio_)
+            n_components = KneeLocator(range(1, len(explained_variance) + 1), explained_variance, curve="convex").knee
+
+            # Update the number of components in the PCA transformer
+            preprocessing_obj.named_transformers_['num_pipeline']['pca'].n_components = n_components
 
             transformed_input_train_feature = preprocessing_obj.transform(input_feature_train_df)
             transformed_input_test_feature = preprocessing_obj.transform(input_feature_test_df)
@@ -97,7 +113,7 @@ class DataTransformation:
             input_feature_test_final, target_feature_test_final = smt.fit_resample(
                 transformed_input_test_feature, target_feature_test_df
             )
-            
+
             logging.info("Applying preprocessing object on train and test dataframes")
 
             train_arr = np.c_[input_feature_train_final, np.array(target_feature_train_final)]
@@ -106,14 +122,14 @@ class DataTransformation:
             save_object(
                 file_path=self.data_transformation_config.preprocessor_obj_file_path,
                 obj=preprocessing_obj)
-            
+
             logging.info("Saved preprocessing object")
-            
+
             return (
                 train_arr,
                 test_arr,
                 self.data_transformation_config.preprocessor_obj_file_path
             )
-            
+
         except Exception as e:
-            raise CustomException(e, sys)
+            raise CustomException("Error occurred during data transformation", sys)
