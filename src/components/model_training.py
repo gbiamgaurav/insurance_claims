@@ -3,6 +3,7 @@ import sys
 from dataclasses import dataclass
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score
+from sklearn.model_selection import GridSearchCV
 from xgboost import XGBClassifier
 from src.exception import CustomException
 from src.logger import logging
@@ -32,21 +33,56 @@ class ModelTrainer:
                 "XGBClassifier": XGBClassifier(),
             }
 
-            model_report: dict = evaluate_models(X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test, models=models)
+            logging.info("Evaluating models before hyperparameter tuning")
+            report_before_tuning = evaluate_models(X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test, models=models)
+            logging.info(f"Model evaluation before hyperparameter tuning: {report_before_tuning}")
 
-            # Get the best model score from dict
-            best_model_score = max(sorted(model_report.values()))
+            param_grid = {
+                "RandomForest": {
+                    "n_estimators": [100, 200, 300],
+                    "max_depth": [None, 5, 10],
+                    "min_samples_split": [2, 5, 10],
+                },
+                "XGBClassifier": {
+                    "n_estimators": [100, 200, 300],
+                    "max_depth": [3, 5, 7],
+                    "learning_rate": [0.1, 0.01, 0.001],
+                },
+            }
 
-            # Get the best model name from dict
-            best_model_name = list(model_report.keys())[list(model_report.values()).index(best_model_score)]
-            best_model = models[best_model_name]
+            best_model_score = 0.0
+            best_model_name = ""
+            best_model = None
 
-            if best_model_score < 0.7:
+            for model_name, model in models.items():
+                logging.info(f"Performing hyperparameter tuning for {model_name}")
+
+                grid_search = GridSearchCV(
+                    estimator=model,
+                    param_grid=param_grid[model_name],
+                    scoring="accuracy",
+                    cv=5
+                )
+
+                grid_search.fit(X_train, y_train)
+
+                if grid_search.best_score_ > best_model_score:
+                    best_model_score = grid_search.best_score_
+                    best_model_name = model_name
+                    best_model = grid_search.best_estimator_
+
+            if best_model is None or best_model_score < 0.7:
                 raise CustomException("No best model found")
-            
+
             logging.info(f"Best model found on both training and testing dataset")
 
+            logging.info(f"Best parameters for {best_model_name}: {best_model.get_params()}")
+
             save_object(file_path=self.model_trainer_config.trained_model_file_path, obj=best_model)
+
+            logging.info("Evaluating best model after hyperparameter tuning")
+            report_after_tuning = evaluate_models(X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test, models={best_model_name: best_model})
+            logging.info(f"Model evaluation after hyperparameter tuning: {report_after_tuning}")
 
             predicted = best_model.predict(X_test)
 

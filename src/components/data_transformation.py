@@ -93,6 +93,8 @@ class DataTransformation:
             # Update the number of components in the PCA transformer
             preprocessor.named_transformers_['num_pipeline']['pca'].n_components = n_components
 
+            logging.info("Applying PCA")
+            
             # Transform the data
             train_transformed = preprocessing_obj.transform(input_feature_train_df)
             test_transformed = preprocessing_obj.transform(input_feature_test_df)
@@ -105,7 +107,8 @@ class DataTransformation:
                 test_transformed,
                 self.data_transformation_config.preprocessor_obj_file_path
             )
+            
+            logging.info("Saved preprocessor object")
 
         except Exception as e:
             raise CustomException("Error occurred during feature transformation", sys)
-
