@@ -102,6 +102,19 @@ class DataTransformation:
             # Save the preprocessor object for later use
             save_object(self.data_transformation_config.preprocessor_obj_file_path, preprocessing_obj)
 
+            # Select the most important features based on PCA component weights
+            pca_component_weights = pca.components_
+            feature_importance = np.abs(pca_component_weights).sum(axis=0)
+            selected_features_indices = np.argsort(feature_importance)[::-1]  # Sort in descending order
+            selected_features = input_feature_train_df.columns[selected_features_indices][:n_components]
+
+            logging.info("The selected features are: ")
+
+            print("Selected Features:")
+            for feature in selected_features:
+                print(feature)
+
+
             return (
                 train_transformed,
                 test_transformed,
