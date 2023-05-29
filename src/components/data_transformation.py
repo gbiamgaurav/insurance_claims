@@ -6,11 +6,8 @@ import numpy as np
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import RobustScaler
-from sklearn.preprocessing import OrdinalEncoder
-from imblearn.combine import SMOTETomek
+from sklearn.preprocessing import RobustScaler, OneHotEncoder
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import LabelEncoder
 from src.utils.utils import save_object
 from src.exception import CustomException
 from src.logger import logging
@@ -52,20 +49,20 @@ class DataTransformation:
             cat_pipeline = Pipeline(
                 steps=[
                     ("imputer", SimpleImputer(strategy="most_frequent")),
-                    ("ordinalencoder", OrdinalEncoder()),
-                    ("robustscaler", RobustScaler())
+                    ("onehotencoder", OneHotEncoder(handle_unknown="ignore"))
                 ]
             )
 
             preprocessor = ColumnTransformer(
-                [
+                transformers=[
                     ("num_pipeline", num_pipeline, numerical_columns),
                     ("cat_pipeline", cat_pipeline, categorical_columns)
-                ]
+                ],
+                remainder="drop"
             )
 
             return preprocessor
-            logging.info("Preprocessor file obtained")
+            logging.info("Preprocessor object obtained")
         except Exception as e:
             raise CustomException("Error occurred while obtaining the preprocessor object", sys)
 
@@ -85,11 +82,6 @@ class DataTransformation:
             input_feature_test_df = test_df.drop(columns=[self.target_column_name], axis=1)
             target_feature_test_df = test_df[self.target_column_name]
 
-            # Encode target column with binary labels
-            label_encoder = LabelEncoder()
-            target_feature_train_df = label_encoder.fit_transform(target_feature_train_df)
-            target_feature_test_df = label_encoder.transform(target_feature_test_df)
-
             preprocessor = self.get_data_transformer_object()
             preprocessing_obj = preprocessor.fit(input_feature_train_df)
 
@@ -99,37 +91,21 @@ class DataTransformation:
             n_components = KneeLocator(range(1, len(explained_variance) + 1), explained_variance, curve="convex").knee
 
             # Update the number of components in the PCA transformer
-            preprocessing_obj.named_transformers_['num_pipeline']['pca'].n_components = n_components
+            preprocessor.named_transformers_['num_pipeline']['pca'].n_components = n_components
 
-            transformed_input_train_feature = preprocessing_obj.transform(input_feature_train_df)
-            transformed_input_test_feature = preprocessing_obj.transform(input_feature_test_df)
+            # Transform the data
+            train_transformed = preprocessing_obj.transform(input_feature_train_df)
+            test_transformed = preprocessing_obj.transform(input_feature_test_df)
 
-            smt = SMOTETomek(sampling_strategy="minority")
-
-            input_feature_train_final, target_feature_train_final = smt.fit_resample(
-                transformed_input_train_feature, target_feature_train_df
-            )
-
-            input_feature_test_final, target_feature_test_final = smt.fit_resample(
-                transformed_input_test_feature, target_feature_test_df
-            )
-
-            logging.info("Applying preprocessing object on train and test dataframes")
-
-            train_arr = np.c_[input_feature_train_final, np.array(target_feature_train_final)]
-            test_arr = np.c_[input_feature_test_final, np.array(target_feature_test_final)]
-
-            save_object(
-                file_path=self.data_transformation_config.preprocessor_obj_file_path,
-                obj=preprocessing_obj)
-
-            logging.info("Saved preprocessing object")
+            # Save the preprocessor object for later use
+            save_object(self.data_transformation_config.preprocessor_obj_file_path, preprocessing_obj)
 
             return (
-                train_arr,
-                test_arr,
+                train_transformed,
+                test_transformed,
                 self.data_transformation_config.preprocessor_obj_file_path
             )
 
         except Exception as e:
-            raise CustomException("Error occurred during data transformation", sys)
+            raise CustomException("Error occurred during feature transformation", sys)
+
