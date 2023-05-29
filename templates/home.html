@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Predict Data</h1>
+    <form method="POST" action="/predictdata">
+        <label for="sex">Insured Sex:</label>
+        <select id="sex" name="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+        <label for="incident_type">Incident Type:</label>
+        <input type="text" id="incident_type" name="incident_type">
+        <br>
+        <label for="collision_type">Collision Type:</label>
+        <input type="text" id="collision_type" name="collision_type">
+        <br>
+        <label for="incident_severity">Incident Severity:</label>
+        <input type="text" id="incident_severity" name="incident_severity">
+        <br>
+        <label for="incident_city">Incident City:</label>
+        <input type="text" id="incident_city" name="incident_city">
+        <br>
+        <label for="number_of_vehicles_involved">Number of Vehicles Involved:</label>
+        <input type="number" id="number_of_vehicles_involved" name="number_of_vehicles_involved">
+        <br>
+        <label for="property_damage">Property Damage:</label>
+        <input type="number" id="property_damage" name="property_damage">
+        <br>
+        <label for="police_report_available">Police Report Available:</label>
+        <input type="number" id="police_report_available" name="police_report_available">
+        <br>
+        <label for="bodily_injuries">Bodily Injuries:</label>
+        <input type="number" id="bodily_injuries" name="bodily_injuries">
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if results %}
+    <h2>Prediction Result:</h2>
+    <p>{{ results }}</p>
+    {% endif %}
+</body>
+</html>
