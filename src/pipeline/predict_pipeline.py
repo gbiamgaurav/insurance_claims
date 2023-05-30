@@ -1,61 +1,70 @@
+import os
 import sys
 import pandas as pd
 from src.exception import CustomException
-from src.logger import logging
-from src.utils import load_object
+from src.utils.utils import load_object
 
 class PredictPipeline:
     def __init__(self):
-        pass
-
+        pass 
+    
     def predict(self, features):
         try:
-            model_path = 'artifacts/model.pkl'
+            model_path = "artifacts/model.pkl"
+            preprocessor_path = "artifacts/preprocessor.pkl"
+            
             model = load_object(file_path=model_path)
-            pred = model.predict(features)
-            return pred
+            preprocessor = load_object(file_path=preprocessor_path)
+            
+            if preprocessor is None:
+                raise CustomException("Preprocessor not found", sys)
+            
+            data_scaled = preprocessor.transform(features)
+            preds = model.predict(data_scaled)
+            return preds
+        
         except Exception as e:
-            logging.info('Exception occurred in prediction pipeline')
-            raise CustomException(e, sys)
+            raise CustomException(str(e), sys)
 
 class CustomData:
-    def __init__(self,
-                 insured_sex: str,
-                 incident_type: str,
-                 collision_type: str,
-                 incident_severity: str,
-                 incident_city: str,
-                 number_of_vehicles_involved: int,
-                 property_damage: str,
-                 police_report_available: str,
-                 bodily_injuries: int):
-        
-        self.insured_sex = insured_sex
-        self.incident_type = incident_type
+    def __init__(self, insured_zip, collision_type, incident_severity, authorities_contacted, insured_sex,
+                 capital_gains, capital_loss, insured_relationship, policy_state, umbrella_limit, incident_type,
+                 insured_education_level, policy_deductable, policy_annual_premium):
+        self.insured_zip = insured_zip
         self.collision_type = collision_type
         self.incident_severity = incident_severity
-        self.incident_city = incident_city
-        self.number_of_vehicles_involved = number_of_vehicles_involved
-        self.property_damage = property_damage
-        self.police_report_available = police_report_available
-        self.bodily_injuries = bodily_injuries
+        self.authorities_contacted = authorities_contacted
+        self.insured_sex = insured_sex
+        self.capital_gains = capital_gains
+        self.capital_loss = capital_loss
+        self.insured_relationship = insured_relationship
+        self.policy_state = policy_state
+        self.umbrella_limit = umbrella_limit
+        self.incident_type = incident_type
+        self.insured_education_level = insured_education_level
+        self.policy_deductable = policy_deductable
+        self.policy_annual_premium = policy_annual_premium
 
     def get_data_as_dataframe(self):
         try:
             custom_data_input_dict = {
-                'insured_sex': [self.insured_sex],
-                'incident_type': [self.incident_type],
-                'collision_type': [self.collision_type],
-                'incident_severity': [self.incident_severity],
-                'incident_city': [self.incident_city],
-                'number_of_vehicles_involved': [self.number_of_vehicles_involved],
-                'property_damage': [self.property_damage],
-                'police_report_available': [self.police_report_available],
-                'bodily_injuries': [self.bodily_injuries],
+                "insured_zip": [self.insured_zip],
+                "collision_type": [self.collision_type],
+                "incident_severity": [self.incident_severity],
+                "authorities_contacted": [self.authorities_contacted],
+                "insured_sex": [self.insured_sex],
+                "capital_gains": [self.capital_gains],
+                "capital_loss": [self.capital_loss],
+                "insured_relationship": [self.insured_relationship],
+                "policy_state": [self.policy_state],
+                "umbrella_limit": [self.umbrella_limit],
+                "incident_type": [self.incident_type],
+                "insured_education_level": [self.insured_education_level],
+                "policy_deductable": [self.policy_deductable],
+                "policy_annual_premium": [self.policy_annual_premium],
             }
-            df = pd.DataFrame(custom_data_input_dict)
-            logging.info('Dataframe Gathered')
-            return df
+
+            return pd.DataFrame(custom_data_input_dict)
+
         except Exception as e:
-            logging.info('Exception Occurred in prediction pipeline')
-            raise CustomException(e, sys)
+            raise CustomException(str(e), sys)
