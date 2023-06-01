@@ -5,8 +5,9 @@ from src.logger import logging
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
-from src.components.data_cleaning import DataCleaning
-
+from src.components.data_cleaning import DataCleaning, DataCleaningConfig
+from src.components.data_transformation import DataTransformation, DataTransformationConfig
+from src.components.model_trainer import ModelTrainer, ModelTrainerConfig
 
 @dataclass
 class DataIngestionConfig:
@@ -57,7 +58,11 @@ if __name__=="__main__":
     obj2=DataCleaning()
     raw_arr=obj2.initiate_data_cleaning() 
 
+    obj3 = DataTransformation()
+    train_arr, test_arr, obj_file_path = obj3.initiate_data_transformation()
 
+    obj4 = ModelTrainer()
+    print(obj4.initiate_model_trainer(train_arr,test_arr))
 
 
 
