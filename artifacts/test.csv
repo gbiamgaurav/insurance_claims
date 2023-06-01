@@ -1,201 +1,201 @@
-policy_state,policy_deductable,policy_annual_premium,umbrella_limit,insured_zip,insured_sex,insured_education_level,insured_relationship,capital-gains,capital-loss,incident_type,collision_type,incident_severity,authorities_contacted,incident_state,incident_city,incident_hour_of_the_day,number_of_vehicles_involved,property_damage,bodily_injuries,witnesses,police_report_available,total_claim_amount,injury_claim,vehicle_claim,auto_make,auto_year,fraud_reported
-IL,2000,1137.02,0,468872,FEMALE,PhD,not-in-family,31500,0,Single Vehicle Collision,Rear Collision,Total Loss,Ambulance,WV,Springfield,22,1,YES,1,3,?,88110,16020,56070,Audi,2003,N
-IL,1000,1422.78,0,616583,FEMALE,High School,husband,61600,0,Multi-vehicle Collision,Front Collision,Total Loss,Ambulance,NC,Riverwood,17,3,?,2,3,YES,52800,5280,42240,Nissan,2006,N
-IN,1000,976.37,0,602842,FEMALE,MD,husband,0,-61000,Multi-vehicle Collision,Rear Collision,Minor Damage,Other,WV,Riverwood,14,3,?,1,3,?,67600,13520,47320,Suburu,2007,N
-IN,2000,1373.21,0,478486,MALE,College,unmarried,42700,-64900,Multi-vehicle Collision,Front Collision,Total Loss,Police,SC,Northbrook,10,3,NO,0,0,NO,62800,6280,43960,Jeep,2012,N
-OH,1000,1117.17,0,473645,FEMALE,High School,not-in-family,0,-29900,Parked Car,?,Trivial Damage,Police,SC,Arlington,6,1,YES,2,0,YES,6820,620,4960,BMW,2005,N
-IL,500,948.1,0,430621,FEMALE,High School,wife,44500,-61400,Multi-vehicle Collision,Front Collision,Minor Damage,Fire,SC,Columbus,11,3,?,0,2,?,69300,13860,48510,Ford,2010,N
-IL,2000,836.11,5000000,464230,MALE,Masters,not-in-family,0,0,Multi-vehicle Collision,Side Collision,Major Damage,Fire,SC,Springfield,1,4,YES,1,2,NO,72840,12140,54630,Dodge,2010,N
-IL,1000,1437.53,0,437889,FEMALE,College,not-in-family,0,0,Multi-vehicle Collision,Side Collision,Minor Damage,Ambulance,PA,Northbrook,6,3,?,0,2,NO,53730,11940,35820,Dodge,2013,Y
-IL,2000,1193.4,0,461372,MALE,PhD,own-child,0,-40800,Multi-vehicle Collision,Side Collision,Total Loss,Other,SC,Columbus,16,3,NO,2,3,?,48950,8900,35600,Suburu,2005,N
-IL,1000,1439.34,0,444822,FEMALE,High School,other-relative,45300,-20400,Vehicle Theft,?,Minor Damage,Police,VA,Riverwood,9,1,?,0,0,NO,3690,410,2870,Ford,2015,N
-OH,1000,1173.25,0,442936,FEMALE,Masters,husband,0,-34700,Vehicle Theft,?,Minor Damage,Police,WV,Arlington,3,1,NO,0,3,YES,4680,520,3640,Chevrolet,2013,N
-OH,1000,1038.09,0,476978,FEMALE,College,husband,0,-19700,Multi-vehicle Collision,Front Collision,Minor Damage,Fire,NY,Springfield,18,3,NO,1,1,YES,89400,14900,67050,Suburu,1998,N
-OH,2000,1609.11,0,601177,MALE,High School,own-child,0,0,Vehicle Theft,?,Minor Damage,Police,WV,Hillsdale,8,1,YES,2,1,YES,5490,0,4270,Saab,1999,N
-IL,1000,1060.74,0,471585,MALE,PhD,own-child,0,-51500,Single Vehicle Collision,Rear Collision,Major Damage,Ambulance,SC,Columbus,15,1,YES,2,3,?,49100,9820,34370,Suburu,1996,Y
-IN,500,1054.92,6000000,468232,FEMALE,PhD,own-child,51900,0,Single Vehicle Collision,Front Collision,Major Damage,Other,NY,Northbrook,4,1,?,0,0,?,68240,8530,59710,Toyota,2013,Y
-OH,500,1319.97,0,604681,FEMALE,Associate,own-child,73700,0,Vehicle Theft,?,Minor Damage,Police,NC,Arlington,8,1,YES,1,3,?,4700,470,3290,Saab,1998,N
-OH,1000,1422.36,0,604668,FEMALE,JD,unmarried,0,-83900,Multi-vehicle Collision,Side Collision,Minor Damage,Fire,PA,Columbus,12,3,NO,1,3,?,46560,7760,31040,Nissan,2012,N
-OH,1000,1051.67,0,479824,FEMALE,Associate,not-in-family,0,0,Multi-vehicle Collision,Side Collision,Major Damage,Ambulance,WV,Riverwood,18,3,YES,0,3,NO,34160,0,29890,Audi,2005,Y
-IL,1000,995.55,5000000,604948,MALE,College,wife,51500,-52100,Multi-vehicle Collision,Rear Collision,Major Damage,Police,SC,Arlington,19,3,YES,0,3,?,68200,12400,43400,Jeep,2007,Y
-IN,1000,1454.42,0,459588,MALE,Associate,other-relative,51600,-73900,Single Vehicle Collision,Side Collision,Major Damage,Other,NY,Springfield,19,1,YES,0,1,YES,74280,12380,49520,Suburu,2006,Y
-OH,500,1380.89,0,620197,MALE,PhD,own-child,30000,-53000,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,SC,Arlington,0,3,?,2,1,?,67210,12220,42770,BMW,1996,N
-IL,1000,1226.49,0,460308,FEMALE,PhD,unmarried,53900,0,Vehicle Theft,?,Trivial Damage,Police,WV,Riverwood,3,1,NO,0,1,NO,6100,610,4270,Ford,2002,N
-OH,1000,1403.9,0,449793,FEMALE,PhD,own-child,0,0,Multi-vehicle Collision,Side Collision,Total Loss,Police,VA,Riverwood,16,2,?,1,2,YES,44110,4010,32080,Honda,2015,N
-IN,1000,1216.68,0,610989,FEMALE,Masters,other-relative,55100,0,Vehicle Theft,?,Trivial Damage,Police,SC,Columbus,8,1,NO,1,1,NO,2700,300,2100,Ford,2013,N
-OH,2000,1620.89,0,469621,FEMALE,High School,other-relative,0,0,Vehicle Theft,?,Minor Damage,Police,NC,Hillsdale,7,1,NO,2,0,NO,6120,1020,4080,Toyota,2015,N
-IN,2000,1506.21,0,453407,MALE,Masters,unmarried,0,-24400,Multi-vehicle Collision,Side Collision,Minor Damage,Fire,NY,Riverwood,16,3,NO,1,0,?,76560,12760,57420,Nissan,2009,N
-IL,1000,1474.17,0,440327,FEMALE,College,unmarried,0,0,Single Vehicle Collision,Side Collision,Major Damage,Police,WV,Northbend,13,1,YES,1,0,YES,52800,10560,36960,Saab,2004,N
-IN,500,944.03,0,440153,MALE,College,not-in-family,0,-58400,Single Vehicle Collision,Rear Collision,Minor Damage,Other,WV,Riverwood,11,1,YES,2,3,?,77000,15400,53900,Toyota,2015,Y
-IL,1000,1468.82,0,474731,MALE,JD,other-relative,56800,-51800,Multi-vehicle Collision,Side Collision,Minor Damage,Fire,SC,Riverwood,9,3,NO,2,1,NO,60000,5000,45000,Honda,1997,N
-IL,500,1006.99,6000000,458936,FEMALE,Masters,own-child,0,0,Single Vehicle Collision,Side Collision,Minor Damage,Other,WV,Columbus,7,1,NO,0,3,?,43560,4840,33880,Suburu,2015,N
-OH,1000,1127.89,6000000,460722,MALE,Associate,own-child,67400,-43800,Single Vehicle Collision,Rear Collision,Minor Damage,Ambulance,WV,Springfield,0,1,YES,2,0,YES,39480,6580,26320,Suburu,2002,N
-IL,1000,1198.15,0,447925,FEMALE,MD,not-in-family,0,-43200,Multi-vehicle Collision,Front Collision,Total Loss,Other,VA,Springfield,19,3,NO,0,2,YES,73560,12260,49040,BMW,1995,N
-OH,500,1048.39,0,620962,FEMALE,Masters,own-child,0,0,Single Vehicle Collision,Side Collision,Minor Damage,Police,NY,Riverwood,2,1,?,2,1,YES,34650,6300,25200,Ford,1996,N
-IN,1000,1525.86,0,463184,FEMALE,PhD,own-child,0,0,Single Vehicle Collision,Side Collision,Minor Damage,Other,NC,Northbend,2,1,YES,1,1,YES,73370,13340,53360,Saab,2013,N
-IN,1000,1366.39,0,438180,MALE,High School,other-relative,0,-22400,Multi-vehicle Collision,Front Collision,Major Damage,Other,NC,Columbus,22,3,YES,2,1,NO,52560,11680,35040,Saab,1995,N
-IL,500,1411.43,0,464874,MALE,Masters,own-child,45100,-32800,Single Vehicle Collision,Front Collision,Major Damage,Ambulance,NY,Riverwood,17,1,YES,2,1,NO,59400,5940,41580,Honda,2014,N
-IL,500,1203.81,0,613119,MALE,JD,not-in-family,52500,-51300,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,WV,Springfield,17,3,?,0,2,?,95900,13700,61650,Saab,1999,N
-IL,1000,1631.1,0,437323,FEMALE,High School,wife,0,0,Parked Car,?,Trivial Damage,Police,WV,Arlington,4,1,?,1,2,NO,6030,670,4690,Nissan,2007,N
-IN,500,915.41,5000000,612316,FEMALE,High School,own-child,0,0,Single Vehicle Collision,Side Collision,Total Loss,Police,NY,Northbrook,23,1,YES,0,0,NO,40500,4050,32400,Nissan,1998,N
-OH,2000,870.63,0,431725,FEMALE,MD,own-child,94800,-58500,Multi-vehicle Collision,Side Collision,Minor Damage,Police,VA,Hillsdale,12,3,NO,1,1,NO,62920,11440,45760,Ford,2000,N
-IN,500,1379.93,0,608228,MALE,MD,husband,0,0,Multi-vehicle Collision,Side Collision,Major Damage,Other,NY,Columbus,6,3,?,0,2,YES,51810,9420,37680,Audi,2002,Y
-IN,1000,1690.27,0,438830,FEMALE,Associate,not-in-family,61500,0,Single Vehicle Collision,Side Collision,Major Damage,Fire,VA,Springfield,11,1,YES,0,3,NO,72930,6630,59670,Dodge,2006,Y
-OH,2000,1327.41,0,440930,FEMALE,Associate,other-relative,0,-38600,Single Vehicle Collision,Side Collision,Total Loss,Other,SC,Hillsdale,0,1,?,0,0,?,35000,3500,24500,Suburu,2012,N
-IN,500,951.56,0,455426,FEMALE,JD,wife,59400,-78600,Multi-vehicle Collision,Side Collision,Major Damage,Police,SC,Riverwood,3,3,NO,2,1,?,98280,15120,75600,Chevrolet,2007,Y
-IN,2000,1097.64,0,614812,MALE,High School,other-relative,27100,0,Multi-vehicle Collision,Rear Collision,Major Damage,Other,PA,Northbend,16,2,NO,1,0,?,63720,7080,35400,Accura,2006,N
-OH,500,1411.3,0,474801,MALE,PhD,unmarried,55600,0,Single Vehicle Collision,Rear Collision,Minor Damage,Other,PA,Northbrook,4,1,NO,1,0,?,60390,10980,43920,BMW,2004,Y
-IN,2000,1341.24,0,601701,FEMALE,MD,wife,37100,-46500,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,WV,Riverwood,18,3,NO,0,1,NO,32670,5940,23760,Honda,2003,N
-IN,500,671.92,0,468300,MALE,Masters,wife,0,-26400,Single Vehicle Collision,Front Collision,Minor Damage,Other,NC,Riverwood,3,1,?,2,0,?,64080,7120,49840,Ford,1997,N
-IN,1000,1115.27,0,613816,MALE,JD,unmarried,0,-66000,Parked Car,?,Trivial Damage,Police,VA,Hillsdale,10,1,YES,2,1,YES,5900,590,4720,Nissan,2010,N
-IL,2000,1304.46,0,473349,FEMALE,PhD,other-relative,51700,-33300,Vehicle Theft,?,Trivial Damage,Police,NC,Arlington,6,1,NO,0,3,YES,5940,540,4320,Audi,2001,Y
-OH,1000,1744.64,3000000,432786,MALE,JD,unmarried,0,0,Multi-vehicle Collision,Rear Collision,Total Loss,Ambulance,WV,Springfield,4,3,NO,0,1,NO,36400,3640,25480,Volkswagen,1998,N
-IL,500,1143.46,4000000,601600,MALE,MD,other-relative,0,0,Single Vehicle Collision,Front Collision,Total Loss,Other,NC,Arlington,4,1,YES,2,1,?,58560,9760,39040,Mercedes,2002,N
-IL,2000,1134.08,0,446895,MALE,PhD,husband,0,0,Single Vehicle Collision,Front Collision,Major Damage,Police,NC,Arlington,3,1,?,2,0,?,59000,5900,47200,Ford,2013,Y
-IN,1000,973.5,0,468634,MALE,PhD,not-in-family,50400,0,Multi-vehicle Collision,Rear Collision,Total Loss,Police,WV,Arlington,15,2,YES,1,3,YES,51090,7860,35370,Toyota,2003,N
-IN,2000,1268.79,0,453148,MALE,MD,own-child,0,-31000,Single Vehicle Collision,Front Collision,Total Loss,Ambulance,WV,Northbend,15,1,?,2,2,?,98160,8180,73620,Dodge,2011,Y
-IL,1000,954.16,0,473328,MALE,Masters,husband,53200,0,Multi-vehicle Collision,Side Collision,Major Damage,Ambulance,SC,Columbus,22,4,NO,0,0,?,75600,12600,50400,Toyota,2005,N
-IL,500,1354.83,0,475173,MALE,MD,husband,66300,0,Multi-vehicle Collision,Front Collision,Minor Damage,Police,NY,Arlington,14,2,NO,2,2,?,40600,4060,32480,Volkswagen,2010,N
-OH,500,1253.12,4000000,462283,FEMALE,Masters,other-relative,38400,0,Single Vehicle Collision,Front Collision,Total Loss,Police,NY,Northbend,22,1,YES,2,2,?,87010,7910,63280,Ford,2002,N
-OH,500,1451.01,0,460820,FEMALE,College,own-child,47800,0,Single Vehicle Collision,Front Collision,Minor Damage,Ambulance,NY,Springfield,17,1,NO,2,2,NO,28100,2810,19670,Jeep,2012,N
-IL,1000,1726.91,0,456570,MALE,High School,own-child,0,0,Vehicle Theft,?,Trivial Damage,Police,VA,Hillsdale,14,1,?,0,0,?,7200,720,5040,Audi,1999,N
-IL,2000,972.47,0,441981,MALE,College,wife,0,-58100,Multi-vehicle Collision,Front Collision,Minor Damage,Police,PA,Hillsdale,15,3,YES,2,2,YES,77100,7710,53970,Audi,2010,N
-OH,1000,1393.57,0,478423,MALE,PhD,not-in-family,47600,-39600,Parked Car,?,Minor Damage,Police,VA,Northbend,5,1,NO,0,1,YES,2640,480,1680,Ford,2009,N
-IL,2000,1017.18,0,431354,FEMALE,MD,husband,0,0,Multi-vehicle Collision,Rear Collision,Major Damage,Police,NC,Arlington,21,3,YES,1,3,NO,48070,8740,30590,Saab,2014,N
-IN,500,767.14,0,466201,MALE,Associate,not-in-family,25500,-36700,Parked Car,?,Trivial Damage,Police,WV,Columbus,8,1,NO,0,1,NO,8800,1760,6160,Suburu,2002,N
-OH,1000,1141.1,0,468515,MALE,JD,other-relative,0,0,Multi-vehicle Collision,Side Collision,Minor Damage,Police,SC,Hillsdale,15,2,?,0,1,YES,71640,5970,53730,Toyota,2008,N
-IN,500,1667.83,0,460586,MALE,JD,husband,48500,-67400,Parked Car,?,Minor Damage,Police,WV,Northbrook,4,1,YES,1,1,NO,6600,1200,4200,Jeep,2005,N
-OH,2000,1295.63,4000000,430878,FEMALE,PhD,not-in-family,42200,-33800,Multi-vehicle Collision,Front Collision,Total Loss,Police,WV,Northbend,22,3,YES,1,0,?,53460,5940,41580,Honda,2009,N
-IN,1000,1034.27,0,617721,FEMALE,JD,husband,0,0,Single Vehicle Collision,Front Collision,Minor Damage,Fire,NY,Hillsdale,18,1,NO,1,0,NO,63900,7100,49700,Accura,2014,N
-OH,500,1105.49,0,463181,FEMALE,Associate,own-child,56200,-50000,Multi-vehicle Collision,Side Collision,Major Damage,Other,SC,Hillsdale,12,2,?,2,3,?,68310,12420,49680,Audi,2003,Y
-OH,1000,1221.17,0,617460,FEMALE,Masters,not-in-family,49300,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,SC,Northbrook,4,3,YES,0,0,YES,51030,5670,34020,Suburu,1996,N
-IN,2000,1207.36,0,432896,FEMALE,High School,own-child,0,-57000,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,WV,Columbus,22,2,NO,1,0,?,74200,7420,51940,Volkswagen,1997,N
-IN,2000,1331.69,0,469653,FEMALE,Masters,not-in-family,0,0,Single Vehicle Collision,Rear Collision,Minor Damage,Police,NY,Northbend,12,1,?,1,2,NO,66950,10300,46350,Chevrolet,2015,N
-OH,500,1233.85,0,457463,FEMALE,College,husband,0,0,Multi-vehicle Collision,Side Collision,Total Loss,Ambulance,PA,Hillsdale,23,3,?,2,1,YES,64260,0,49980,Ford,1999,N
-OH,500,1124.59,6000000,459428,MALE,College,not-in-family,67300,0,Single Vehicle Collision,Rear Collision,Minor Damage,Other,NC,Columbus,4,1,NO,1,2,NO,40800,6800,27200,BMW,2004,N
-IL,2000,1366.9,0,459322,FEMALE,High School,husband,0,-15700,Multi-vehicle Collision,Rear Collision,Major Damage,Fire,NC,Northbend,14,3,?,1,0,NO,52700,10540,31620,BMW,2014,Y
-IN,1000,1248.25,4000000,605692,FEMALE,College,own-child,0,-33300,Parked Car,?,Minor Damage,Police,VA,Northbrook,8,1,NO,0,2,?,8760,1460,5840,BMW,2013,N
-OH,500,912.3,0,461383,MALE,College,wife,58500,-44000,Multi-vehicle Collision,Front Collision,Major Damage,Other,SC,Northbend,23,3,NO,2,1,?,68750,12500,43750,Audi,2007,Y
-IN,500,1262.08,0,474615,MALE,JD,wife,48500,0,Single Vehicle Collision,Front Collision,Major Damage,Ambulance,NC,Columbus,4,1,?,0,3,NO,60170,10940,38290,Nissan,2011,Y
-IL,1000,1389.86,0,472475,FEMALE,Associate,husband,0,0,Multi-vehicle Collision,Side Collision,Total Loss,Other,WV,Springfield,23,2,?,2,3,YES,65100,6510,52080,Saab,2011,N
-IN,500,1366.42,0,476198,FEMALE,Associate,unmarried,44000,0,Multi-vehicle Collision,Rear Collision,Total Loss,Fire,SC,Arlington,14,3,NO,1,2,YES,59100,5910,47280,Nissan,1998,Y
-OH,500,1471.24,0,601574,FEMALE,Masters,own-child,57500,-93600,Multi-vehicle Collision,Side Collision,Minor Damage,Police,NC,Riverwood,4,3,NO,2,2,NO,32480,4060,24360,Dodge,1997,N
-IN,500,1239.22,7000000,476458,FEMALE,High School,not-in-family,43400,-91200,Single Vehicle Collision,Side Collision,Minor Damage,Fire,SC,Springfield,12,1,YES,0,1,NO,89700,13800,62100,Audi,2009,Y
-IN,500,1307.74,0,466137,FEMALE,Associate,own-child,0,-75700,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,SC,Riverwood,10,3,?,0,1,NO,37530,4170,29190,Jeep,2008,N
-OH,500,835.02,0,602433,FEMALE,Associate,unmarried,59600,0,Multi-vehicle Collision,Side Collision,Minor Damage,Fire,WV,Hillsdale,17,3,NO,1,1,NO,33930,0,30160,BMW,1998,N
-IL,500,903.32,0,451184,FEMALE,High School,not-in-family,0,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,NY,Northbend,1,3,?,1,0,?,31700,6340,22190,Toyota,2006,N
-IN,500,999.52,0,615229,MALE,JD,other-relative,0,0,Vehicle Theft,?,Minor Damage,Police,VA,Springfield,6,1,?,1,2,NO,8640,1440,6480,Accura,2008,N
-IL,2000,1356.92,5000000,441714,MALE,Associate,wife,0,0,Single Vehicle Collision,Rear Collision,Major Damage,Other,NY,Arlington,2,1,?,0,1,YES,46980,5220,36540,Audi,1998,N
-IL,500,1265.72,0,612506,FEMALE,Masters,wife,0,-59500,Single Vehicle Collision,Front Collision,Major Damage,Fire,SC,Columbus,23,1,YES,0,2,?,64350,9900,44550,Mercedes,1998,N
-IN,2000,1145.85,0,471784,MALE,JD,not-in-family,0,-40000,Multi-vehicle Collision,Rear Collision,Total Loss,Other,NY,Columbus,19,3,?,1,1,YES,41490,9220,27660,Mercedes,2004,N
-IN,1000,1724.09,0,615712,MALE,PhD,own-child,0,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,NY,Arlington,23,3,YES,0,0,?,65780,5980,47840,Chevrolet,2014,N
-OH,2000,1091.73,0,601213,MALE,PhD,not-in-family,36100,-42300,Multi-vehicle Collision,Rear Collision,Minor Damage,Other,NY,Springfield,15,3,?,0,2,YES,49950,5550,38850,Nissan,2004,Y
-IN,1000,1437.88,0,614383,FEMALE,College,husband,42800,-51200,Single Vehicle Collision,Side Collision,Total Loss,Fire,SC,Northbrook,3,1,NO,2,0,YES,56000,14000,42000,Chevrolet,2003,N
-IN,1000,1281.72,0,619811,MALE,College,other-relative,33500,-49500,Multi-vehicle Collision,Rear Collision,Minor Damage,Fire,SC,Northbend,20,4,NO,0,2,YES,47740,4340,39060,Honda,2005,N
-IL,500,1314.6,0,458139,FEMALE,MD,not-in-family,24800,0,Single Vehicle Collision,Rear Collision,Total Loss,Other,WV,Hillsdale,0,1,?,2,3,?,70290,12780,51120,Saab,1998,Y
-IN,1000,1231.01,0,459562,MALE,College,husband,0,-31700,Multi-vehicle Collision,Front Collision,Minor Damage,Fire,SC,Riverwood,19,3,NO,1,2,?,28440,3160,22120,Dodge,2007,N
-IL,500,1111.72,0,448857,MALE,JD,other-relative,54600,0,Single Vehicle Collision,Side Collision,Major Damage,Fire,PA,Riverwood,6,1,?,1,2,?,41850,4650,32550,Suburu,1997,N
-IN,1000,1561.41,0,462767,FEMALE,High School,husband,21200,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,NY,Arlington,5,3,YES,1,3,NO,70290,12780,44730,Mercedes,2012,N
-IL,2000,1318.24,0,601748,FEMALE,College,not-in-family,0,-78600,Parked Car,?,Trivial Damage,Police,WV,Arlington,9,1,NO,0,1,YES,4700,940,3290,Dodge,2002,N
-OH,500,1848.81,0,435489,MALE,JD,own-child,0,-49000,Multi-vehicle Collision,Front Collision,Major Damage,Fire,WV,Northbend,20,3,YES,2,2,YES,68520,11420,51390,Suburu,2003,Y
-OH,2000,1246.68,0,440251,FEMALE,PhD,own-child,0,0,Single Vehicle Collision,Front Collision,Minor Damage,Fire,NY,Arlington,10,1,?,0,1,?,53100,5900,41300,Suburu,2006,N
-OH,500,1330.39,0,612664,MALE,MD,wife,0,0,Single Vehicle Collision,Front Collision,Total Loss,Other,NY,Columbus,3,1,NO,2,2,YES,49900,4990,34930,Dodge,1998,N
-IL,2000,1030.95,0,435985,FEMALE,Associate,other-relative,47200,0,Multi-vehicle Collision,Rear Collision,Major Damage,Ambulance,NC,Northbend,20,3,?,1,0,NO,35900,7180,25130,Audi,2007,Y
-OH,1000,1693.83,7000000,447976,MALE,High School,other-relative,44000,-20800,Single Vehicle Collision,Front Collision,Minor Damage,Police,NY,Northbrook,6,1,?,1,0,?,53400,5340,42720,Honda,2003,N
-IL,500,1153.49,0,432711,MALE,Associate,other-relative,0,0,Multi-vehicle Collision,Side Collision,Total Loss,Other,SC,Arlington,16,3,YES,1,0,YES,50500,10100,35350,Accura,2004,N
-OH,1000,1520.78,0,470538,FEMALE,High School,wife,0,-42900,Parked Car,?,Trivial Damage,Police,SC,Columbus,5,1,?,0,2,YES,2860,520,2080,Chevrolet,1997,Y
-IL,500,1390.89,5000000,453719,MALE,College,wife,0,-74400,Single Vehicle Collision,Front Collision,Minor Damage,Other,NY,Riverwood,23,1,?,2,2,?,53460,9720,38880,Volkswagen,2009,N
-IL,500,1256.2,0,448310,FEMALE,JD,not-in-family,0,0,Multi-vehicle Collision,Side Collision,Minor Damage,Other,SC,Northbend,10,3,YES,1,2,YES,41700,8340,25020,Saab,2013,N
-OH,500,1107.07,0,478868,FEMALE,High School,husband,0,-45300,Vehicle Theft,?,Minor Damage,Police,VA,Hillsdale,21,1,NO,0,0,YES,3300,600,2100,Saab,2008,N
-IL,500,1448.84,0,430987,FEMALE,Masters,husband,0,-50000,Parked Car,?,Trivial Damage,Police,SC,Hillsdale,7,1,?,0,1,NO,5940,660,4620,Toyota,2015,N
-OH,2000,1107.59,3000000,468202,MALE,PhD,not-in-family,65400,0,Single Vehicle Collision,Side Collision,Major Damage,Other,NY,Columbus,23,1,NO,1,3,NO,62640,10440,41760,Mercedes,2009,N
-IL,500,1251.16,0,447750,FEMALE,Associate,not-in-family,41400,0,Single Vehicle Collision,Front Collision,Total Loss,Ambulance,WV,Riverwood,14,1,?,0,1,NO,75960,6330,63300,Jeep,2010,N
-OH,1000,1324.78,0,478640,FEMALE,PhD,not-in-family,0,-64500,Single Vehicle Collision,Front Collision,Major Damage,Police,NC,Northbrook,6,1,NO,2,2,YES,76400,15280,53480,Volkswagen,1997,Y
-OH,1000,1722.5,0,453713,MALE,High School,wife,0,-21500,Single Vehicle Collision,Side Collision,Major Damage,Other,WV,Columbus,22,1,?,0,2,?,76900,7690,61520,Jeep,1995,N
-IL,500,1354.2,0,438775,FEMALE,College,wife,100500,0,Multi-vehicle Collision,Side Collision,Minor Damage,Other,SC,Columbus,4,4,?,0,0,?,60170,5470,43760,Nissan,2006,N
-IL,1000,873.64,4000000,432934,FEMALE,Associate,husband,800,0,Multi-vehicle Collision,Front Collision,Minor Damage,Other,SC,Columbus,9,3,NO,2,1,?,68400,11400,45600,Ford,2007,N
-OH,1000,845.16,0,434342,FEMALE,Masters,other-relative,0,0,Single Vehicle Collision,Front Collision,Major Damage,Police,NC,Northbend,21,1,YES,1,0,NO,55170,6130,42910,Audi,2005,Y
-OH,1000,1141.35,7000000,476456,MALE,Masters,not-in-family,0,0,Single Vehicle Collision,Front Collision,Major Damage,Ambulance,NY,Northbend,18,1,?,0,2,NO,54900,5490,43920,Mercedes,2013,N
-IN,1000,988.93,0,614187,FEMALE,High School,unmarried,27600,0,Single Vehicle Collision,Front Collision,Total Loss,Other,NY,Columbus,11,1,?,2,3,YES,84590,15380,53830,Dodge,1999,N
-OH,2000,1170.53,0,465667,FEMALE,PhD,wife,65000,-49200,Multi-vehicle Collision,Rear Collision,Total Loss,Fire,WV,Northbend,17,3,NO,1,2,YES,62590,5690,45520,Nissan,2006,N
-IN,500,1090.65,0,608331,MALE,High School,unmarried,0,-51800,Multi-vehicle Collision,Rear Collision,Minor Damage,Police,NC,Columbus,16,4,?,1,2,YES,53400,5340,42720,Honda,2010,Y
-IL,1000,1125.4,0,606144,MALE,Masters,husband,40000,-43400,Vehicle Theft,?,Trivial Damage,Police,WV,Columbus,6,1,?,2,1,NO,2640,220,1980,Jeep,2001,N
-OH,500,1282.93,0,616126,FEMALE,College,other-relative,0,0,Multi-vehicle Collision,Side Collision,Major Damage,Police,WV,Northbrook,0,4,?,0,0,?,66880,6080,48640,Chevrolet,1996,Y
-OH,2000,1471.44,5000000,446657,MALE,High School,own-child,57500,0,Single Vehicle Collision,Rear Collision,Major Damage,Fire,NC,Riverwood,8,1,NO,2,1,NO,50380,4580,36640,Chevrolet,2007,Y
-OH,1000,1629.94,0,620104,FEMALE,Masters,other-relative,0,-47100,Parked Car,?,Trivial Damage,Police,SC,Riverwood,17,1,?,0,1,NO,3850,350,3150,Dodge,2014,N
-IL,2000,932.14,0,612550,MALE,MD,own-child,40600,0,Multi-vehicle Collision,Rear Collision,Total Loss,Fire,SC,Columbus,2,3,NO,2,3,NO,78650,14300,57200,Audi,1996,Y
-IN,2000,1231.25,0,604333,FEMALE,PhD,not-in-family,46500,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Ambulance,WV,Arlington,15,3,?,1,0,?,53680,4880,39040,Toyota,2011,N
-OH,2000,1153.54,6000000,619657,MALE,Masters,unmarried,0,-57000,Multi-vehicle Collision,Rear Collision,Minor Damage,Fire,NY,Northbrook,3,3,NO,0,1,?,68090,12380,43330,Toyota,2009,N
-IN,500,1335.13,0,452647,FEMALE,High School,unmarried,44000,-71000,Single Vehicle Collision,Rear Collision,Total Loss,Police,SC,Northbend,13,1,YES,1,1,?,54810,6090,42630,Chevrolet,1999,Y
-OH,1000,1255.35,0,454176,FEMALE,JD,not-in-family,60300,-58900,Multi-vehicle Collision,Rear Collision,Total Loss,Ambulance,NY,Riverwood,22,2,NO,0,3,YES,59300,11860,41510,Dodge,2008,N
-IL,2000,1370.92,0,442206,MALE,College,unmarried,48900,0,Single Vehicle Collision,Rear Collision,Minor Damage,Police,SC,Arlington,22,1,YES,0,3,?,34800,3480,24360,Accura,1999,N
-OH,1000,1276.73,5000000,610246,FEMALE,Masters,other-relative,0,0,Multi-vehicle Collision,Front Collision,Major Damage,Police,WV,Northbrook,12,3,NO,1,3,?,61920,6880,48160,Saab,2003,N
-IL,2000,1166.62,6000000,602500,MALE,Associate,wife,0,0,Parked Car,?,Trivial Damage,Police,NC,Northbend,23,1,NO,0,3,NO,5700,570,4560,Saab,2001,N
-IL,500,1401.2,0,619892,FEMALE,High School,own-child,51500,0,Vehicle Theft,?,Trivial Damage,Police,NC,Hillsdale,9,1,NO,1,0,NO,6890,1060,4770,Audi,1999,N
-OH,1000,1310.8,0,431289,FEMALE,Masters,unmarried,0,0,Single Vehicle Collision,Front Collision,Minor Damage,Fire,NC,Northbrook,20,1,YES,0,1,?,87200,17440,61040,Honda,2006,N
-IN,2000,1586.41,0,608708,FEMALE,High School,other-relative,33500,-58900,Single Vehicle Collision,Front Collision,Major Damage,Police,WV,Northbrook,10,1,YES,1,3,?,75570,6870,54960,BMW,2010,Y
-OH,1000,1276.57,0,467784,MALE,PhD,not-in-family,71500,0,Single Vehicle Collision,Rear Collision,Minor Damage,Fire,NY,Arlington,3,1,YES,1,2,NO,78900,15780,55230,Chevrolet,1995,N
-IL,2000,1167.3,4000000,618123,MALE,High School,other-relative,0,0,Single Vehicle Collision,Side Collision,Minor Damage,Fire,SC,Hillsdale,22,1,NO,2,0,?,69300,13860,41580,Volkswagen,2000,N
-OH,1000,1279.13,0,615226,MALE,PhD,other-relative,0,0,Multi-vehicle Collision,Side Collision,Minor Damage,Ambulance,NC,Springfield,5,3,?,1,2,YES,81070,7370,58960,Audi,2006,Y
-OH,2000,1266.92,0,613982,MALE,Masters,own-child,0,0,Multi-vehicle Collision,Rear Collision,Major Damage,Other,OH,Arlington,16,3,NO,1,3,YES,71500,16500,44000,Ford,2006,Y
-OH,1000,895.83,0,452597,FEMALE,Associate,husband,0,0,Single Vehicle Collision,Rear Collision,Minor Damage,Ambulance,NC,Arlington,10,1,NO,1,2,NO,30100,3010,27090,Chevrolet,1999,N
-IL,2000,1081.08,0,468104,MALE,JD,unmarried,36400,-28700,Single Vehicle Collision,Front Collision,Minor Damage,Other,SC,Springfield,14,1,YES,0,2,?,56400,11280,33840,Toyota,2014,N
-OH,500,1297.75,4000000,451280,FEMALE,JD,own-child,0,-41400,Multi-vehicle Collision,Rear Collision,Total Loss,Ambulance,SC,Columbus,15,3,?,0,1,?,98670,15180,68310,Chevrolet,2010,Y
-OH,500,990.11,0,442666,MALE,Masters,other-relative,0,-41200,Parked Car,?,Trivial Damage,Police,NY,Riverwood,8,1,?,1,3,YES,5830,1060,3710,Dodge,2015,N
-IN,1000,1348.32,0,469429,FEMALE,Associate,wife,37600,-37600,Vehicle Theft,?,Trivial Damage,Police,NY,Arlington,3,1,NO,2,1,?,4730,860,3010,Chevrolet,2013,Y
-OH,500,1294.41,0,476315,MALE,High School,husband,0,0,Vehicle Theft,?,Minor Damage,Police,NC,Arlington,8,1,YES,0,0,?,8970,1380,6210,Dodge,2011,N
-OH,2000,979.26,0,436364,FEMALE,JD,own-child,0,-67000,Multi-vehicle Collision,Front Collision,Major Damage,Fire,NY,Riverwood,2,4,YES,0,2,YES,72800,14560,43680,Honda,1998,N
-IL,2000,1537.13,0,471614,FEMALE,PhD,own-child,0,-58300,Multi-vehicle Collision,Side Collision,Total Loss,Other,NY,Northbend,3,3,NO,0,2,YES,57060,6340,44380,Ford,2012,N
-OH,1000,773.99,0,458727,MALE,Associate,other-relative,0,-70300,Vehicle Theft,?,Trivial Damage,Police,PA,Springfield,3,1,YES,1,2,NO,3200,640,2240,Mercedes,2014,N
-OH,500,1078.65,0,615730,MALE,JD,not-in-family,36800,0,Single Vehicle Collision,Front Collision,Minor Damage,Police,WV,Northbend,16,1,?,2,3,YES,66660,12120,48480,Honda,2006,N
-IN,2000,1616.58,0,447979,MALE,JD,husband,58500,-46800,Multi-vehicle Collision,Rear Collision,Major Damage,Other,SC,Hillsdale,13,3,YES,0,3,YES,63600,6360,44520,Dodge,2010,N
-IL,500,1543.68,0,606988,FEMALE,Masters,not-in-family,20200,0,Single Vehicle Collision,Side Collision,Major Damage,Police,NC,Hillsdale,17,1,NO,0,1,YES,51920,9440,37760,Audi,2001,Y
-IN,1000,1197.71,0,470117,MALE,Masters,not-in-family,29000,0,Multi-vehicle Collision,Front Collision,Total Loss,Ambulance,WV,Springfield,17,3,?,2,0,?,78240,13040,52160,Suburu,2013,N
-IN,500,1093.83,4000000,468454,MALE,Associate,other-relative,0,-49600,Multi-vehicle Collision,Side Collision,Major Damage,Ambulance,WV,Springfield,18,3,?,1,1,NO,53280,4440,39960,Suburu,2015,Y
-IN,2000,977.4,0,444500,MALE,Masters,own-child,82200,0,Single Vehicle Collision,Front Collision,Total Loss,Fire,NY,Columbus,2,1,YES,2,3,NO,55700,5570,38990,Nissan,2014,N
-IL,500,958.3,0,464646,FEMALE,PhD,husband,47900,0,Multi-vehicle Collision,Side Collision,Major Damage,Fire,NY,Columbus,19,3,?,0,0,?,46860,8520,29820,Volkswagen,1998,N
-IL,2000,1376.16,0,466555,FEMALE,PhD,own-child,38600,-50300,Multi-vehicle Collision,Front Collision,Major Damage,Police,SC,Arlington,10,3,NO,2,1,?,47760,5970,35820,Suburu,2013,Y
-IL,2000,1247.87,0,464336,MALE,Masters,husband,0,-39700,Multi-vehicle Collision,Side Collision,Total Loss,Fire,NY,Northbend,20,3,NO,2,2,NO,45700,4570,36560,BMW,2008,N
-OH,2000,1434.27,0,457234,FEMALE,Associate,unmarried,0,-35900,Single Vehicle Collision,Rear Collision,Major Damage,Other,VA,Arlington,13,1,?,2,3,?,55110,5010,40080,Nissan,2002,N
-IN,500,795.23,0,609216,MALE,PhD,other-relative,36900,0,Multi-vehicle Collision,Rear Collision,Major Damage,Police,NY,Springfield,15,3,YES,2,1,?,69480,15440,54040,Nissan,2014,Y
-IL,1000,1387.35,0,477415,MALE,JD,not-in-family,0,-72000,Single Vehicle Collision,Front Collision,Minor Damage,Fire,WV,Hillsdale,16,1,NO,2,2,?,61320,10220,40880,BMW,1998,N
-IN,500,1533.07,0,609336,MALE,JD,own-child,0,-28800,Single Vehicle Collision,Rear Collision,Major Damage,Police,NC,Springfield,13,1,YES,1,2,YES,58500,0,52000,Ford,2001,N
-IL,500,1358.2,0,477636,FEMALE,MD,husband,52900,0,Multi-vehicle Collision,Front Collision,Major Damage,Ambulance,NY,Columbus,11,3,YES,0,0,NO,64570,5870,46960,Jeep,2001,N
-IL,1000,968.46,0,615767,MALE,MD,not-in-family,50800,-66200,Multi-vehicle Collision,Side Collision,Total Loss,Ambulance,WV,Columbus,0,3,?,0,2,?,59400,6600,39600,Dodge,1995,Y
-IL,500,1045.12,0,615311,FEMALE,High School,other-relative,0,-28300,Multi-vehicle Collision,Side Collision,Major Damage,Ambulance,NY,Springfield,2,3,NO,0,2,?,69930,0,54390,Ford,2013,Y
-IL,500,1521.55,0,477856,FEMALE,Associate,other-relative,61100,-64500,Single Vehicle Collision,Rear Collision,Major Damage,Fire,SC,Hillsdale,18,1,?,1,3,YES,68200,13640,47740,Dodge,2003,Y
-IN,500,1285.01,0,459630,MALE,Masters,not-in-family,0,-39800,Single Vehicle Collision,Rear Collision,Major Damage,Ambulance,VA,Hillsdale,21,1,NO,2,2,YES,58500,5850,46800,Toyota,2010,N
-IL,500,1416.24,0,441659,FEMALE,MD,not-in-family,0,0,Parked Car,?,Minor Damage,Police,WV,Northbend,7,1,YES,1,0,?,5940,1080,4320,Nissan,2003,N
-OH,1000,1484.48,0,613849,MALE,PhD,not-in-family,50700,-36300,Single Vehicle Collision,Side Collision,Major Damage,Police,SC,Riverwood,10,1,NO,2,3,?,63030,5730,45840,Saab,1996,N
-IL,2000,1316.63,0,613178,FEMALE,Masters,unmarried,43900,0,Multi-vehicle Collision,Side Collision,Minor Damage,Other,SC,Northbend,13,3,YES,2,0,?,84500,13000,58500,BMW,2009,N
-OH,2000,1312.75,0,471453,FEMALE,PhD,other-relative,81300,0,Multi-vehicle Collision,Rear Collision,Major Damage,Other,SC,Springfield,10,3,NO,2,2,YES,80740,7340,58720,Toyota,2014,Y
-IN,500,922.67,0,473611,FEMALE,College,other-relative,47400,0,Multi-vehicle Collision,Rear Collision,Major Damage,Ambulance,SC,Northbend,15,3,YES,2,1,?,65520,9360,46800,Toyota,2011,Y
-IN,1000,1012.78,0,469126,MALE,MD,other-relative,43700,0,Single Vehicle Collision,Front Collision,Major Damage,Fire,WV,Arlington,18,1,NO,2,1,NO,104610,19020,66570,Mercedes,1999,Y
-OH,500,1337.56,0,605141,FEMALE,College,unmarried,0,0,Single Vehicle Collision,Rear Collision,Minor Damage,Police,SC,Riverwood,18,1,?,1,2,YES,74700,7470,52290,Dodge,2010,N
-IN,1000,1248.05,0,443550,FEMALE,High School,husband,37500,-54000,Multi-vehicle Collision,Rear Collision,Total Loss,Police,SC,Arlington,3,3,YES,1,2,?,53280,5920,47360,Chevrolet,2015,N
-OH,1000,1878.44,0,450746,MALE,High School,husband,0,-76000,Single Vehicle Collision,Rear Collision,Total Loss,Fire,VA,Riverwood,2,1,NO,0,0,?,59070,5370,48330,Chevrolet,2003,N
-OH,500,1195.01,0,476227,FEMALE,Associate,own-child,60700,-54300,Multi-vehicle Collision,Side Collision,Major Damage,Other,WV,Northbend,13,3,NO,0,2,?,42700,0,36600,Mercedes,2011,Y
-OH,1000,1711.72,0,463678,FEMALE,JD,wife,0,0,Multi-vehicle Collision,Rear Collision,Major Damage,Fire,SC,Northbrook,21,3,NO,2,2,NO,63250,5750,46000,Chevrolet,2002,Y
-OH,2000,1443.32,0,613287,FEMALE,PhD,unmarried,0,0,Multi-vehicle Collision,Rear Collision,Major Damage,Fire,SC,Northbend,19,3,?,0,2,YES,47790,5310,37170,Suburu,1995,Y
-IN,1000,828.42,3000000,467762,FEMALE,College,other-relative,0,0,Single Vehicle Collision,Front Collision,Total Loss,Police,NY,Arlington,10,1,?,2,2,NO,56000,5600,44800,Chevrolet,2009,N
-IN,500,1220.86,0,436784,MALE,JD,husband,55400,-40400,Parked Car,?,Trivial Damage,Police,NY,Arlington,4,1,YES,1,2,?,4320,0,3360,Saab,2003,N
-OH,2000,1486.04,0,615688,FEMALE,Associate,own-child,0,-56200,Multi-vehicle Collision,Rear Collision,Major Damage,Other,OH,Northbrook,1,3,NO,2,3,?,64100,12820,44870,Dodge,2014,Y
-IN,2000,1223.39,0,452218,FEMALE,MD,wife,0,0,Multi-vehicle Collision,Rear Collision,Total Loss,Ambulance,PA,Hillsdale,17,3,?,1,3,?,65440,8180,49080,Jeep,2014,N
-OH,2000,1260.32,6000000,460760,MALE,JD,not-in-family,0,-79800,Single Vehicle Collision,Side Collision,Total Loss,Fire,VA,Northbrook,16,1,?,1,2,?,45500,9100,31850,Toyota,2009,N
-IL,2000,1290.74,5000000,430832,FEMALE,High School,husband,58300,0,Multi-vehicle Collision,Side Collision,Major Damage,Ambulance,VA,Springfield,6,3,NO,2,0,YES,78870,7170,57360,Suburu,2013,N
-IN,2000,1375.29,0,609226,FEMALE,Masters,own-child,0,0,Multi-vehicle Collision,Side Collision,Major Damage,Ambulance,SC,Columbus,11,3,?,0,1,?,56160,6240,43680,Ford,2015,Y
-IL,1000,1281.27,0,447442,FEMALE,PhD,not-in-family,68900,0,Multi-vehicle Collision,Rear Collision,Minor Damage,Fire,SC,Springfield,9,3,NO,0,3,?,65500,6550,52400,BMW,2010,N
-OH,500,1203.17,0,455810,FEMALE,MD,unmarried,56700,-65600,Single Vehicle Collision,Rear Collision,Total Loss,Fire,WV,Hillsdale,11,1,NO,0,0,?,63250,11500,46000,Nissan,1997,N
-IN,1000,1050.24,0,456789,FEMALE,Masters,wife,30700,0,Parked Car,?,Minor Damage,Police,NC,Arlington,7,1,?,0,0,NO,3600,360,2520,BMW,2013,Y
-IN,2000,1112.04,6000000,472209,FEMALE,PhD,own-child,52800,-54300,Parked Car,?,Minor Damage,Police,SC,Arlington,5,1,NO,1,3,NO,4290,780,2730,Volkswagen,1998,N
-IL,2000,1124.47,0,616161,FEMALE,MD,wife,0,-45100,Single Vehicle Collision,Side Collision,Total Loss,Ambulance,SC,Northbrook,5,1,NO,0,1,?,90530,16460,57610,Ford,2003,N
-OH,1000,1328.26,0,613921,MALE,Masters,not-in-family,42300,-45800,Single Vehicle Collision,Front Collision,Total Loss,Police,WV,Hillsdale,17,1,NO,1,1,NO,60840,13520,40560,Suburu,2011,N
-OH,1000,1270.55,0,478532,MALE,Masters,unmarried,0,-72100,Multi-vehicle Collision,Side Collision,Total Loss,Other,NC,Riverwood,10,3,YES,2,3,NO,84920,7720,61760,Jeep,2006,Y
-OH,500,1172.82,4000000,440680,MALE,Associate,other-relative,82100,0,Vehicle Theft,?,Trivial Damage,Police,SC,Arlington,8,1,?,1,3,NO,3900,780,2730,Ford,2010,N
-OH,2000,1512.58,0,452496,FEMALE,College,other-relative,47600,0,Vehicle Theft,?,Minor Damage,Police,SC,Arlington,7,1,?,1,1,?,2520,280,1960,BMW,1997,N
-OH,2000,1217.69,0,440106,FEMALE,MD,wife,24000,0,Multi-vehicle Collision,Side Collision,Major Damage,Other,SC,Springfield,6,3,?,1,0,?,53460,9720,34020,Dodge,2004,Y
-OH,2000,1190.6,0,434206,MALE,Masters,unmarried,0,-45300,Single Vehicle Collision,Rear Collision,Minor Damage,Fire,OH,Riverwood,17,1,?,1,3,YES,43230,7860,27510,Chevrolet,2001,N
-IN,500,1259.02,0,439534,FEMALE,JD,unmarried,67000,-53600,Parked Car,?,Trivial Damage,Police,SC,Northbend,8,1,NO,2,2,?,5640,940,3760,Nissan,2005,N
-IN,500,1451.54,3000000,473412,MALE,JD,husband,0,0,Multi-vehicle Collision,Side Collision,Total Loss,Police,SC,Riverwood,13,4,NO,2,3,NO,65070,7230,43380,Mercedes,2003,N
-IN,1000,1202.75,0,602289,MALE,High School,not-in-family,57900,-90100,Multi-vehicle Collision,Front Collision,Minor Damage,Police,SC,Northbrook,23,3,NO,0,2,YES,79560,6630,59670,Volkswagen,2003,N
-OH,1000,1489.24,6000000,608335,FEMALE,JD,wife,0,-45000,Vehicle Theft,?,Minor Damage,Police,SC,Springfield,15,1,YES,2,2,YES,8060,1240,5580,Saab,2004,N
+policy_state,insured_sex,insured_education_level,insured_relationship,incident_type,collision_type,incident_severity,authorities_contacted,incident_state,incident_city,property_damage,police_report_available,auto_make,policy_deductable,policy_annual_premium,umbrella_limit,insured_zip,capital-gains,capital-loss,incident_hour_of_the_day,number_of_vehicles_involved,bodily_injuries,witnesses,total_claim_amount,injury_claim,vehicle_claim,auto_year,fraud_reported
+0.0,0.0,6.0,1.0,2.0,2.0,2.0,0.0,6.0,6.0,2.0,0.0,1.0,2000,1137.02,0,468872,31500,0,22,1,1,3,88110,16020,56070,2003,0
+0.0,0.0,2.0,0.0,0.0,1.0,2.0,0.0,0.0,5.0,0.0,2.0,9.0,1000,1422.78,0,616583,61600,0,17,3,2,3,52800,5280,42240,2006,0
+1.0,0.0,4.0,0.0,0.0,2.0,1.0,2.0,6.0,5.0,0.0,0.0,11.0,1000,976.37,0,602842,0,-61000,14,3,1,3,67600,13520,47320,2007,0
+1.0,1.0,1.0,4.0,0.0,1.0,2.0,3.0,4.0,4.0,1.0,1.0,7.0,2000,1373.21,0,478486,42700,-64900,10,3,0,0,62800,6280,43960,2012,0
+2.0,0.0,2.0,1.0,1.0,0.0,3.0,3.0,4.0,0.0,2.0,2.0,2.0,1000,1117.17,0,473645,0,-29900,6,1,2,0,6820,620,4960,2005,0
+0.0,0.0,2.0,5.0,0.0,1.0,1.0,1.0,4.0,1.0,0.0,0.0,5.0,500,948.1,0,430621,44500,-61400,11,3,0,2,69300,13860,48510,2010,0
+0.0,1.0,5.0,1.0,0.0,3.0,0.0,1.0,4.0,6.0,2.0,1.0,4.0,2000,836.11,5000000,464230,0,0,1,4,1,2,72840,12140,54630,2010,0
+0.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,3.0,4.0,0.0,1.0,4.0,1000,1437.53,0,437889,0,0,6,3,0,2,53730,11940,35820,2013,1
+0.0,1.0,6.0,3.0,0.0,3.0,2.0,2.0,4.0,1.0,1.0,0.0,11.0,2000,1193.4,0,461372,0,-40800,16,3,2,3,48950,8900,35600,2005,0
+0.0,0.0,2.0,2.0,3.0,0.0,1.0,3.0,5.0,5.0,0.0,1.0,5.0,1000,1439.34,0,444822,45300,-20400,9,1,0,0,3690,410,2870,2015,0
+2.0,0.0,5.0,0.0,3.0,0.0,1.0,3.0,6.0,0.0,1.0,2.0,3.0,1000,1173.25,0,442936,0,-34700,3,1,0,3,4680,520,3640,2013,0
+2.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,6.0,1.0,2.0,11.0,1000,1038.09,0,476978,0,-19700,18,3,1,1,89400,14900,67050,1998,0
+2.0,1.0,2.0,3.0,3.0,0.0,1.0,3.0,6.0,2.0,2.0,2.0,10.0,2000,1609.11,0,601177,0,0,8,1,2,1,5490,0,4270,1999,0
+0.0,1.0,6.0,3.0,2.0,2.0,0.0,0.0,4.0,1.0,2.0,0.0,11.0,1000,1060.74,0,471585,0,-51500,15,1,2,3,49100,9820,34370,1996,1
+1.0,0.0,6.0,3.0,2.0,1.0,0.0,2.0,1.0,4.0,0.0,0.0,12.0,500,1054.92,6000000,468232,51900,0,4,1,0,0,68240,8530,59710,2013,1
+2.0,0.0,0.0,3.0,3.0,0.0,1.0,3.0,0.0,0.0,2.0,0.0,10.0,500,1319.97,0,604681,73700,0,8,1,1,3,4700,470,3290,1998,0
+2.0,0.0,3.0,4.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,9.0,1000,1422.36,0,604668,0,-83900,12,3,1,3,46560,7760,31040,2012,0
+2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,6.0,5.0,2.0,1.0,1.0,1000,1051.67,0,479824,0,0,18,3,0,3,34160,0,29890,2005,1
+0.0,1.0,1.0,5.0,0.0,2.0,0.0,3.0,4.0,0.0,2.0,0.0,7.0,1000,995.55,5000000,604948,51500,-52100,19,3,0,3,68200,12400,43400,2007,1
+1.0,1.0,0.0,2.0,2.0,3.0,0.0,2.0,1.0,6.0,2.0,2.0,11.0,1000,1454.42,0,459588,51600,-73900,19,1,0,1,74280,12380,49520,2006,1
+2.0,1.0,6.0,3.0,0.0,2.0,1.0,0.0,4.0,0.0,0.0,0.0,2.0,500,1380.89,0,620197,30000,-53000,0,3,2,1,67210,12220,42770,1996,0
+0.0,0.0,6.0,4.0,3.0,0.0,3.0,3.0,6.0,5.0,1.0,1.0,5.0,1000,1226.49,0,460308,53900,0,3,1,0,1,6100,610,4270,2002,0
+2.0,0.0,6.0,3.0,0.0,3.0,2.0,3.0,5.0,5.0,0.0,2.0,6.0,1000,1403.9,0,449793,0,0,16,2,1,2,44110,4010,32080,2015,0
+1.0,0.0,5.0,2.0,3.0,0.0,3.0,3.0,4.0,1.0,1.0,1.0,5.0,1000,1216.68,0,610989,55100,0,8,1,1,1,2700,300,2100,2013,0
+2.0,0.0,2.0,2.0,3.0,0.0,1.0,3.0,0.0,2.0,1.0,1.0,12.0,2000,1620.89,0,469621,0,0,7,1,2,0,6120,1020,4080,2015,0
+1.0,1.0,5.0,4.0,0.0,3.0,1.0,1.0,1.0,5.0,1.0,0.0,9.0,2000,1506.21,0,453407,0,-24400,16,3,1,0,76560,12760,57420,2009,0
+0.0,0.0,1.0,4.0,2.0,3.0,0.0,3.0,6.0,3.0,2.0,2.0,10.0,1000,1474.17,0,440327,0,0,13,1,1,0,52800,10560,36960,2004,0
+1.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,6.0,5.0,2.0,0.0,12.0,500,944.03,0,440153,0,-58400,11,1,2,3,77000,15400,53900,2015,1
+0.0,1.0,3.0,2.0,0.0,3.0,1.0,1.0,4.0,5.0,1.0,1.0,6.0,1000,1468.82,0,474731,56800,-51800,9,3,2,1,60000,5000,45000,1997,0
+0.0,0.0,5.0,3.0,2.0,3.0,1.0,2.0,6.0,1.0,1.0,0.0,11.0,500,1006.99,6000000,458936,0,0,7,1,0,3,43560,4840,33880,2015,0
+2.0,1.0,0.0,3.0,2.0,2.0,1.0,0.0,6.0,6.0,2.0,2.0,11.0,1000,1127.89,6000000,460722,67400,-43800,0,1,2,0,39480,6580,26320,2002,0
+0.0,0.0,4.0,1.0,0.0,1.0,2.0,2.0,5.0,6.0,1.0,2.0,2.0,1000,1198.15,0,447925,0,-43200,19,3,0,2,73560,12260,49040,1995,0
+2.0,0.0,5.0,3.0,2.0,3.0,1.0,3.0,1.0,5.0,0.0,2.0,5.0,500,1048.39,0,620962,0,0,2,1,2,1,34650,6300,25200,1996,0
+1.0,0.0,6.0,3.0,2.0,3.0,1.0,2.0,0.0,3.0,2.0,2.0,10.0,1000,1525.86,0,463184,0,0,2,1,1,1,73370,13340,53360,2013,0
+1.0,1.0,2.0,2.0,0.0,1.0,0.0,2.0,0.0,1.0,2.0,1.0,10.0,1000,1366.39,0,438180,0,-22400,22,3,2,1,52560,11680,35040,1995,0
+0.0,1.0,5.0,3.0,2.0,1.0,0.0,0.0,1.0,5.0,2.0,1.0,6.0,500,1411.43,0,464874,45100,-32800,17,1,2,1,59400,5940,41580,2014,0
+0.0,1.0,3.0,1.0,0.0,2.0,1.0,3.0,6.0,6.0,0.0,0.0,10.0,500,1203.81,0,613119,52500,-51300,17,3,0,2,95900,13700,61650,1999,0
+0.0,0.0,2.0,5.0,1.0,0.0,3.0,3.0,6.0,0.0,0.0,1.0,9.0,1000,1631.1,0,437323,0,0,4,1,1,2,6030,670,4690,2007,0
+1.0,0.0,2.0,3.0,2.0,3.0,2.0,3.0,1.0,4.0,2.0,1.0,9.0,500,915.41,5000000,612316,0,0,23,1,0,0,40500,4050,32400,1998,0
+2.0,0.0,4.0,3.0,0.0,3.0,1.0,3.0,5.0,2.0,1.0,1.0,5.0,2000,870.63,0,431725,94800,-58500,12,3,1,1,62920,11440,45760,2000,0
+1.0,1.0,4.0,0.0,0.0,3.0,0.0,2.0,1.0,1.0,0.0,2.0,1.0,500,1379.93,0,608228,0,0,6,3,0,2,51810,9420,37680,2002,1
+1.0,0.0,0.0,1.0,2.0,3.0,0.0,1.0,5.0,6.0,2.0,1.0,4.0,1000,1690.27,0,438830,61500,0,11,1,0,3,72930,6630,59670,2006,1
+2.0,0.0,0.0,2.0,2.0,3.0,2.0,2.0,4.0,2.0,0.0,0.0,11.0,2000,1327.41,0,440930,0,-38600,0,1,0,0,35000,3500,24500,2012,0
+1.0,0.0,3.0,5.0,0.0,3.0,0.0,3.0,4.0,5.0,1.0,0.0,3.0,500,951.56,0,455426,59400,-78600,3,3,2,1,98280,15120,75600,2007,1
+1.0,1.0,2.0,2.0,0.0,2.0,0.0,2.0,3.0,3.0,1.0,0.0,0.0,2000,1097.64,0,614812,27100,0,16,2,1,0,63720,7080,35400,2006,0
+2.0,1.0,6.0,4.0,2.0,2.0,1.0,2.0,3.0,4.0,1.0,0.0,2.0,500,1411.3,0,474801,55600,0,4,1,1,0,60390,10980,43920,2004,1
+1.0,0.0,4.0,5.0,0.0,2.0,1.0,0.0,6.0,5.0,1.0,1.0,6.0,2000,1341.24,0,601701,37100,-46500,18,3,0,1,32670,5940,23760,2003,0
+1.0,1.0,5.0,5.0,2.0,1.0,1.0,2.0,0.0,5.0,0.0,0.0,5.0,500,671.92,0,468300,0,-26400,3,1,2,0,64080,7120,49840,1997,0
+1.0,1.0,3.0,4.0,1.0,0.0,3.0,3.0,5.0,2.0,2.0,2.0,9.0,1000,1115.27,0,613816,0,-66000,10,1,2,1,5900,590,4720,2010,0
+0.0,0.0,6.0,2.0,3.0,0.0,3.0,3.0,0.0,0.0,1.0,2.0,1.0,2000,1304.46,0,473349,51700,-33300,6,1,0,3,5940,540,4320,2001,1
+2.0,1.0,3.0,4.0,0.0,2.0,2.0,0.0,6.0,6.0,1.0,1.0,13.0,1000,1744.64,3000000,432786,0,0,4,3,0,1,36400,3640,25480,1998,0
+0.0,1.0,4.0,2.0,2.0,1.0,2.0,2.0,0.0,0.0,2.0,0.0,8.0,500,1143.46,4000000,601600,0,0,4,1,2,1,58560,9760,39040,2002,0
+0.0,1.0,6.0,0.0,2.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,2000,1134.08,0,446895,0,0,3,1,2,0,59000,5900,47200,2013,1
+1.0,1.0,6.0,1.0,0.0,2.0,2.0,3.0,6.0,0.0,2.0,2.0,12.0,1000,973.5,0,468634,50400,0,15,2,1,3,51090,7860,35370,2003,0
+1.0,1.0,4.0,3.0,2.0,1.0,2.0,0.0,6.0,3.0,0.0,0.0,4.0,2000,1268.79,0,453148,0,-31000,15,1,2,2,98160,8180,73620,2011,1
+0.0,1.0,5.0,0.0,0.0,3.0,0.0,0.0,4.0,1.0,1.0,0.0,12.0,1000,954.16,0,473328,53200,0,22,4,0,0,75600,12600,50400,2005,0
+0.0,1.0,4.0,0.0,0.0,1.0,1.0,3.0,1.0,0.0,1.0,0.0,13.0,500,1354.83,0,475173,66300,0,14,2,2,2,40600,4060,32480,2010,0
+2.0,0.0,5.0,2.0,2.0,1.0,2.0,3.0,1.0,3.0,2.0,0.0,5.0,500,1253.12,4000000,462283,38400,0,22,1,2,2,87010,7910,63280,2002,0
+2.0,0.0,1.0,3.0,2.0,1.0,1.0,0.0,1.0,6.0,1.0,1.0,7.0,500,1451.01,0,460820,47800,0,17,1,2,2,28100,2810,19670,2012,0
+0.0,1.0,2.0,3.0,3.0,0.0,3.0,3.0,5.0,2.0,0.0,0.0,1.0,1000,1726.91,0,456570,0,0,14,1,0,0,7200,720,5040,1999,0
+0.0,1.0,1.0,5.0,0.0,1.0,1.0,3.0,3.0,2.0,2.0,2.0,1.0,2000,972.47,0,441981,0,-58100,15,3,2,2,77100,7710,53970,2010,0
+2.0,1.0,6.0,1.0,1.0,0.0,1.0,3.0,5.0,3.0,1.0,2.0,5.0,1000,1393.57,0,478423,47600,-39600,5,1,0,1,2640,480,1680,2009,0
+0.0,0.0,4.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,2.0,1.0,10.0,2000,1017.18,0,431354,0,0,21,3,1,3,48070,8740,30590,2014,0
+1.0,1.0,0.0,1.0,1.0,0.0,3.0,3.0,6.0,1.0,1.0,1.0,11.0,500,767.14,0,466201,25500,-36700,8,1,0,1,8800,1760,6160,2002,0
+2.0,1.0,3.0,2.0,0.0,3.0,1.0,3.0,4.0,2.0,0.0,2.0,12.0,1000,1141.1,0,468515,0,0,15,2,0,1,71640,5970,53730,2008,0
+1.0,1.0,3.0,0.0,1.0,0.0,1.0,3.0,6.0,4.0,2.0,1.0,7.0,500,1667.83,0,460586,48500,-67400,4,1,1,1,6600,1200,4200,2005,0
+2.0,0.0,6.0,1.0,0.0,1.0,2.0,3.0,6.0,3.0,2.0,0.0,6.0,2000,1295.63,4000000,430878,42200,-33800,22,3,1,0,53460,5940,41580,2009,0
+1.0,0.0,3.0,0.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,0.0,1000,1034.27,0,617721,0,0,18,1,1,0,63900,7100,49700,2014,0
+2.0,0.0,0.0,3.0,0.0,3.0,0.0,2.0,4.0,2.0,0.0,0.0,1.0,500,1105.49,0,463181,56200,-50000,12,2,2,3,68310,12420,49680,2003,1
+2.0,0.0,5.0,1.0,0.0,2.0,1.0,0.0,4.0,4.0,2.0,2.0,11.0,1000,1221.17,0,617460,49300,0,4,3,0,0,51030,5670,34020,1996,0
+1.0,0.0,2.0,3.0,0.0,1.0,0.0,0.0,6.0,1.0,1.0,0.0,13.0,2000,1207.36,0,432896,0,-57000,22,2,1,0,74200,7420,51940,1997,0
+1.0,0.0,5.0,1.0,2.0,2.0,1.0,3.0,1.0,3.0,0.0,1.0,3.0,2000,1331.69,0,469653,0,0,12,1,1,2,66950,10300,46350,2015,0
+2.0,0.0,1.0,0.0,0.0,3.0,2.0,0.0,3.0,2.0,0.0,2.0,5.0,500,1233.85,0,457463,0,0,23,3,2,1,64260,0,49980,1999,0
+2.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,0.0,1.0,1.0,1.0,2.0,500,1124.59,6000000,459428,67300,0,4,1,1,2,40800,6800,27200,2004,0
+0.0,0.0,2.0,0.0,0.0,2.0,0.0,1.0,0.0,3.0,0.0,1.0,2.0,2000,1366.9,0,459322,0,-15700,14,3,1,0,52700,10540,31620,2014,1
+1.0,0.0,1.0,3.0,1.0,0.0,1.0,3.0,5.0,4.0,1.0,0.0,2.0,1000,1248.25,4000000,605692,0,-33300,8,1,0,2,8760,1460,5840,2013,0
+2.0,1.0,1.0,5.0,0.0,1.0,0.0,2.0,4.0,3.0,1.0,0.0,1.0,500,912.3,0,461383,58500,-44000,23,3,2,1,68750,12500,43750,2007,1
+1.0,1.0,3.0,5.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,9.0,500,1262.08,0,474615,48500,0,4,1,0,3,60170,10940,38290,2011,1
+0.0,0.0,0.0,0.0,0.0,3.0,2.0,2.0,6.0,6.0,0.0,2.0,10.0,1000,1389.86,0,472475,0,0,23,2,2,3,65100,6510,52080,2011,0
+1.0,0.0,0.0,4.0,0.0,2.0,2.0,1.0,4.0,0.0,1.0,2.0,9.0,500,1366.42,0,476198,44000,0,14,3,1,2,59100,5910,47280,1998,1
+2.0,0.0,5.0,3.0,0.0,3.0,1.0,3.0,0.0,5.0,1.0,1.0,4.0,500,1471.24,0,601574,57500,-93600,4,3,2,2,32480,4060,24360,1997,0
+1.0,0.0,2.0,1.0,2.0,3.0,1.0,1.0,4.0,6.0,2.0,1.0,1.0,500,1239.22,7000000,476458,43400,-91200,12,1,0,1,89700,13800,62100,2009,1
+1.0,0.0,0.0,3.0,0.0,1.0,0.0,0.0,4.0,5.0,0.0,1.0,7.0,500,1307.74,0,466137,0,-75700,10,3,0,1,37530,4170,29190,2008,0
+2.0,0.0,0.0,4.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,1.0,2.0,500,835.02,0,602433,59600,0,17,3,1,1,33930,0,30160,1998,0
+0.0,0.0,2.0,1.0,0.0,2.0,1.0,3.0,1.0,3.0,0.0,0.0,12.0,500,903.32,0,451184,0,0,1,3,1,0,31700,6340,22190,2006,0
+1.0,1.0,3.0,2.0,3.0,0.0,1.0,3.0,5.0,6.0,0.0,1.0,0.0,500,999.52,0,615229,0,0,6,1,1,2,8640,1440,6480,2008,0
+0.0,1.0,0.0,5.0,2.0,2.0,0.0,2.0,1.0,0.0,0.0,2.0,1.0,2000,1356.92,5000000,441714,0,0,2,1,0,1,46980,5220,36540,1998,0
+0.0,0.0,5.0,5.0,2.0,1.0,0.0,1.0,4.0,1.0,2.0,0.0,8.0,500,1265.72,0,612506,0,-59500,23,1,0,2,64350,9900,44550,1998,0
+1.0,1.0,3.0,1.0,0.0,2.0,2.0,2.0,1.0,1.0,0.0,2.0,8.0,2000,1145.85,0,471784,0,-40000,19,3,1,1,41490,9220,27660,2004,0
+1.0,1.0,6.0,3.0,0.0,2.0,1.0,3.0,1.0,0.0,2.0,0.0,3.0,1000,1724.09,0,615712,0,0,23,3,0,0,65780,5980,47840,2014,0
+2.0,1.0,6.0,1.0,0.0,2.0,1.0,2.0,1.0,6.0,0.0,2.0,9.0,2000,1091.73,0,601213,36100,-42300,15,3,0,2,49950,5550,38850,2004,1
+1.0,0.0,1.0,0.0,2.0,3.0,2.0,1.0,4.0,4.0,1.0,2.0,3.0,1000,1437.88,0,614383,42800,-51200,3,1,2,0,56000,14000,42000,2003,0
+1.0,1.0,1.0,2.0,0.0,2.0,1.0,1.0,4.0,3.0,1.0,2.0,6.0,1000,1281.72,0,619811,33500,-49500,20,4,0,2,47740,4340,39060,2005,0
+0.0,0.0,4.0,1.0,2.0,2.0,2.0,2.0,6.0,2.0,0.0,0.0,10.0,500,1314.6,0,458139,24800,0,0,1,2,3,70290,12780,51120,1998,1
+1.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,4.0,5.0,1.0,0.0,4.0,1000,1231.01,0,459562,0,-31700,19,3,1,2,28440,3160,22120,2007,0
+0.0,1.0,3.0,2.0,2.0,3.0,0.0,1.0,3.0,5.0,0.0,0.0,11.0,500,1111.72,0,448857,54600,0,6,1,1,2,41850,4650,32550,1997,0
+1.0,0.0,2.0,0.0,0.0,2.0,1.0,3.0,1.0,0.0,2.0,1.0,8.0,1000,1561.41,0,462767,21200,0,5,3,1,3,70290,12780,44730,2012,0
+0.0,0.0,1.0,1.0,1.0,0.0,3.0,3.0,6.0,0.0,1.0,2.0,4.0,2000,1318.24,0,601748,0,-78600,9,1,0,1,4700,940,3290,2002,0
+2.0,1.0,3.0,3.0,0.0,1.0,0.0,1.0,6.0,3.0,2.0,2.0,11.0,500,1848.81,0,435489,0,-49000,20,3,2,2,68520,11420,51390,2003,1
+2.0,0.0,6.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,11.0,2000,1246.68,0,440251,0,0,10,1,0,1,53100,5900,41300,2006,0
+2.0,1.0,4.0,5.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,4.0,500,1330.39,0,612664,0,0,3,1,2,2,49900,4990,34930,1998,0
+0.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,3.0,0.0,1.0,1.0,2000,1030.95,0,435985,47200,0,20,3,1,0,35900,7180,25130,2007,1
+2.0,1.0,2.0,2.0,2.0,1.0,1.0,3.0,1.0,4.0,0.0,0.0,6.0,1000,1693.83,7000000,447976,44000,-20800,6,1,1,0,53400,5340,42720,2003,0
+0.0,1.0,0.0,2.0,0.0,3.0,2.0,2.0,4.0,0.0,2.0,2.0,0.0,500,1153.49,0,432711,0,0,16,3,1,0,50500,10100,35350,2004,0
+2.0,0.0,2.0,5.0,1.0,0.0,3.0,3.0,4.0,1.0,0.0,2.0,3.0,1000,1520.78,0,470538,0,-42900,5,1,0,2,2860,520,2080,1997,1
+0.0,1.0,1.0,5.0,2.0,1.0,1.0,2.0,1.0,5.0,0.0,0.0,13.0,500,1390.89,5000000,453719,0,-74400,23,1,2,2,53460,9720,38880,2009,0
+0.0,0.0,3.0,1.0,0.0,3.0,1.0,2.0,4.0,3.0,2.0,2.0,10.0,500,1256.2,0,448310,0,0,10,3,1,2,41700,8340,25020,2013,0
+2.0,0.0,2.0,0.0,3.0,0.0,1.0,3.0,5.0,2.0,1.0,2.0,10.0,500,1107.07,0,478868,0,-45300,21,1,0,0,3300,600,2100,2008,0
+0.0,0.0,5.0,0.0,1.0,0.0,3.0,3.0,4.0,2.0,0.0,1.0,12.0,500,1448.84,0,430987,0,-50000,7,1,0,1,5940,660,4620,2015,0
+2.0,1.0,6.0,1.0,2.0,3.0,0.0,2.0,1.0,1.0,1.0,1.0,8.0,2000,1107.59,3000000,468202,65400,0,23,1,1,3,62640,10440,41760,2009,0
+0.0,0.0,0.0,1.0,2.0,1.0,2.0,0.0,6.0,5.0,0.0,1.0,7.0,500,1251.16,0,447750,41400,0,14,1,0,1,75960,6330,63300,2010,0
+2.0,0.0,6.0,1.0,2.0,1.0,0.0,3.0,0.0,4.0,1.0,2.0,13.0,1000,1324.78,0,478640,0,-64500,6,1,2,2,76400,15280,53480,1997,1
+2.0,1.0,2.0,5.0,2.0,3.0,0.0,2.0,6.0,1.0,0.0,0.0,7.0,1000,1722.5,0,453713,0,-21500,22,1,0,2,76900,7690,61520,1995,0
+0.0,0.0,1.0,5.0,0.0,3.0,1.0,2.0,4.0,1.0,0.0,0.0,9.0,500,1354.2,0,438775,100500,0,4,4,0,0,60170,5470,43760,2006,0
+0.0,0.0,0.0,0.0,0.0,1.0,1.0,2.0,4.0,1.0,1.0,0.0,5.0,1000,873.64,4000000,432934,800,0,9,3,2,1,68400,11400,45600,2007,0
+2.0,0.0,5.0,2.0,2.0,1.0,0.0,3.0,0.0,3.0,2.0,1.0,1.0,1000,845.16,0,434342,0,0,21,1,1,0,55170,6130,42910,2005,1
+2.0,1.0,5.0,1.0,2.0,1.0,0.0,0.0,1.0,3.0,0.0,1.0,8.0,1000,1141.35,7000000,476456,0,0,18,1,0,2,54900,5490,43920,2013,0
+1.0,0.0,2.0,4.0,2.0,1.0,2.0,2.0,1.0,1.0,0.0,2.0,4.0,1000,988.93,0,614187,27600,0,11,1,2,3,84590,15380,53830,1999,0
+2.0,0.0,6.0,5.0,0.0,2.0,2.0,1.0,6.0,3.0,1.0,2.0,9.0,2000,1170.53,0,465667,65000,-49200,17,3,1,2,62590,5690,45520,2006,0
+1.0,1.0,2.0,4.0,0.0,2.0,1.0,3.0,0.0,1.0,0.0,2.0,6.0,500,1090.65,0,608331,0,-51800,16,4,1,2,53400,5340,42720,2010,1
+0.0,1.0,5.0,0.0,3.0,0.0,3.0,3.0,6.0,1.0,0.0,1.0,7.0,1000,1125.4,0,606144,40000,-43400,6,1,2,1,2640,220,1980,2001,0
+2.0,0.0,1.0,2.0,0.0,3.0,0.0,3.0,6.0,4.0,0.0,0.0,3.0,500,1282.93,0,616126,0,0,0,4,0,0,66880,6080,48640,1996,1
+2.0,1.0,2.0,3.0,2.0,2.0,0.0,1.0,0.0,5.0,1.0,1.0,3.0,2000,1471.44,5000000,446657,57500,0,8,1,2,1,50380,4580,36640,2007,1
+2.0,0.0,5.0,2.0,1.0,0.0,3.0,3.0,4.0,5.0,0.0,1.0,4.0,1000,1629.94,0,620104,0,-47100,17,1,0,1,3850,350,3150,2014,0
+0.0,1.0,4.0,3.0,0.0,2.0,2.0,1.0,4.0,1.0,1.0,1.0,1.0,2000,932.14,0,612550,40600,0,2,3,2,3,78650,14300,57200,1996,1
+1.0,0.0,6.0,1.0,0.0,2.0,1.0,0.0,6.0,0.0,0.0,0.0,12.0,2000,1231.25,0,604333,46500,0,15,3,1,0,53680,4880,39040,2011,0
+2.0,1.0,5.0,4.0,0.0,2.0,1.0,1.0,1.0,4.0,1.0,0.0,12.0,2000,1153.54,6000000,619657,0,-57000,3,3,0,1,68090,12380,43330,2009,0
+1.0,0.0,2.0,4.0,2.0,2.0,2.0,3.0,4.0,3.0,2.0,0.0,3.0,500,1335.13,0,452647,44000,-71000,13,1,1,1,54810,6090,42630,1999,1
+2.0,0.0,3.0,1.0,0.0,2.0,2.0,0.0,1.0,5.0,1.0,2.0,4.0,1000,1255.35,0,454176,60300,-58900,22,2,0,3,59300,11860,41510,2008,0
+0.0,1.0,1.0,4.0,2.0,2.0,1.0,3.0,4.0,0.0,2.0,0.0,0.0,2000,1370.92,0,442206,48900,0,22,1,0,3,34800,3480,24360,1999,0
+2.0,0.0,5.0,2.0,0.0,1.0,0.0,3.0,6.0,4.0,1.0,0.0,10.0,1000,1276.73,5000000,610246,0,0,12,3,1,3,61920,6880,48160,2003,0
+0.0,1.0,0.0,5.0,1.0,0.0,3.0,3.0,0.0,3.0,1.0,1.0,10.0,2000,1166.62,6000000,602500,0,0,23,1,0,3,5700,570,4560,2001,0
+0.0,0.0,2.0,3.0,3.0,0.0,3.0,3.0,0.0,2.0,1.0,1.0,1.0,500,1401.2,0,619892,51500,0,9,1,1,0,6890,1060,4770,1999,0
+2.0,0.0,5.0,4.0,2.0,1.0,1.0,1.0,0.0,4.0,2.0,0.0,6.0,1000,1310.8,0,431289,0,0,20,1,0,1,87200,17440,61040,2006,0
+1.0,0.0,2.0,2.0,2.0,1.0,0.0,3.0,6.0,4.0,2.0,0.0,2.0,2000,1586.41,0,608708,33500,-58900,10,1,1,3,75570,6870,54960,2010,1
+2.0,1.0,6.0,1.0,2.0,2.0,1.0,1.0,1.0,0.0,2.0,1.0,3.0,1000,1276.57,0,467784,71500,0,3,1,1,2,78900,15780,55230,1995,0
+0.0,1.0,2.0,2.0,2.0,3.0,1.0,1.0,4.0,2.0,1.0,0.0,13.0,2000,1167.3,4000000,618123,0,0,22,1,2,0,69300,13860,41580,2000,0
+2.0,1.0,6.0,2.0,0.0,3.0,1.0,0.0,0.0,6.0,0.0,2.0,1.0,1000,1279.13,0,615226,0,0,5,3,1,2,81070,7370,58960,2006,1
+2.0,1.0,5.0,3.0,0.0,2.0,0.0,2.0,2.0,0.0,1.0,2.0,5.0,2000,1266.92,0,613982,0,0,16,3,1,3,71500,16500,44000,2006,1
+2.0,0.0,0.0,0.0,2.0,2.0,1.0,0.0,0.0,0.0,1.0,1.0,3.0,1000,895.83,0,452597,0,0,10,1,1,2,30100,3010,27090,1999,0
+0.0,1.0,3.0,4.0,2.0,1.0,1.0,2.0,4.0,6.0,2.0,0.0,12.0,2000,1081.08,0,468104,36400,-28700,14,1,0,2,56400,11280,33840,2014,0
+2.0,0.0,3.0,3.0,0.0,2.0,2.0,0.0,4.0,1.0,0.0,0.0,3.0,500,1297.75,4000000,451280,0,-41400,15,3,0,1,98670,15180,68310,2010,1
+2.0,1.0,5.0,2.0,1.0,0.0,3.0,3.0,1.0,5.0,0.0,2.0,4.0,500,990.11,0,442666,0,-41200,8,1,1,3,5830,1060,3710,2015,0
+1.0,0.0,0.0,5.0,3.0,0.0,3.0,3.0,1.0,0.0,1.0,0.0,3.0,1000,1348.32,0,469429,37600,-37600,3,1,2,1,4730,860,3010,2013,1
+2.0,1.0,2.0,0.0,3.0,0.0,1.0,3.0,0.0,0.0,2.0,0.0,4.0,500,1294.41,0,476315,0,0,8,1,0,0,8970,1380,6210,2011,0
+2.0,0.0,3.0,3.0,0.0,1.0,0.0,1.0,1.0,5.0,2.0,2.0,6.0,2000,979.26,0,436364,0,-67000,2,4,0,2,72800,14560,43680,1998,0
+0.0,0.0,6.0,3.0,0.0,3.0,2.0,2.0,1.0,3.0,1.0,2.0,5.0,2000,1537.13,0,471614,0,-58300,3,3,0,2,57060,6340,44380,2012,0
+2.0,1.0,0.0,2.0,3.0,0.0,3.0,3.0,3.0,6.0,2.0,1.0,8.0,1000,773.99,0,458727,0,-70300,3,1,1,2,3200,640,2240,2014,0
+2.0,1.0,3.0,1.0,2.0,1.0,1.0,3.0,6.0,3.0,0.0,2.0,6.0,500,1078.65,0,615730,36800,0,16,1,2,3,66660,12120,48480,2006,0
+1.0,1.0,3.0,0.0,0.0,2.0,0.0,2.0,4.0,2.0,2.0,2.0,4.0,2000,1616.58,0,447979,58500,-46800,13,3,0,3,63600,6360,44520,2010,0
+0.0,0.0,5.0,1.0,2.0,3.0,0.0,3.0,0.0,2.0,1.0,2.0,1.0,500,1543.68,0,606988,20200,0,17,1,0,1,51920,9440,37760,2001,1
+1.0,1.0,5.0,1.0,0.0,1.0,2.0,0.0,6.0,6.0,0.0,0.0,11.0,1000,1197.71,0,470117,29000,0,17,3,2,0,78240,13040,52160,2013,0
+1.0,1.0,0.0,2.0,0.0,3.0,0.0,0.0,6.0,6.0,0.0,1.0,11.0,500,1093.83,4000000,468454,0,-49600,18,3,1,1,53280,4440,39960,2015,1
+1.0,1.0,5.0,3.0,2.0,1.0,2.0,1.0,1.0,1.0,2.0,1.0,9.0,2000,977.4,0,444500,82200,0,2,1,2,3,55700,5570,38990,2014,0
+0.0,0.0,6.0,0.0,0.0,3.0,0.0,1.0,1.0,1.0,0.0,0.0,13.0,500,958.3,0,464646,47900,0,19,3,0,0,46860,8520,29820,1998,0
+0.0,0.0,6.0,3.0,0.0,1.0,0.0,3.0,4.0,0.0,1.0,0.0,11.0,2000,1376.16,0,466555,38600,-50300,10,3,2,1,47760,5970,35820,2013,1
+0.0,1.0,5.0,0.0,0.0,3.0,2.0,1.0,1.0,3.0,1.0,1.0,2.0,2000,1247.87,0,464336,0,-39700,20,3,2,2,45700,4570,36560,2008,0
+2.0,0.0,0.0,4.0,2.0,2.0,0.0,2.0,5.0,0.0,0.0,0.0,9.0,2000,1434.27,0,457234,0,-35900,13,1,2,3,55110,5010,40080,2002,0
+1.0,1.0,6.0,2.0,0.0,2.0,0.0,3.0,1.0,6.0,2.0,0.0,9.0,500,795.23,0,609216,36900,0,15,3,2,1,69480,15440,54040,2014,1
+0.0,1.0,3.0,1.0,2.0,1.0,1.0,1.0,6.0,2.0,1.0,0.0,2.0,1000,1387.35,0,477415,0,-72000,16,1,2,2,61320,10220,40880,1998,0
+1.0,1.0,3.0,3.0,2.0,2.0,0.0,3.0,0.0,6.0,2.0,2.0,5.0,500,1533.07,0,609336,0,-28800,13,1,1,2,58500,0,52000,2001,0
+0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,2.0,1.0,7.0,500,1358.2,0,477636,52900,0,11,3,0,0,64570,5870,46960,2001,0
+0.0,1.0,4.0,1.0,0.0,3.0,2.0,0.0,6.0,1.0,0.0,0.0,4.0,1000,968.46,0,615767,50800,-66200,0,3,0,2,59400,6600,39600,1995,1
+0.0,0.0,2.0,2.0,0.0,3.0,0.0,0.0,1.0,6.0,1.0,0.0,5.0,500,1045.12,0,615311,0,-28300,2,3,0,2,69930,0,54390,2013,1
+0.0,0.0,0.0,2.0,2.0,2.0,0.0,1.0,4.0,2.0,0.0,2.0,4.0,500,1521.55,0,477856,61100,-64500,18,1,1,3,68200,13640,47740,2003,1
+1.0,1.0,5.0,1.0,2.0,2.0,0.0,0.0,5.0,2.0,1.0,2.0,12.0,500,1285.01,0,459630,0,-39800,21,1,2,2,58500,5850,46800,2010,0
+0.0,0.0,4.0,1.0,1.0,0.0,1.0,3.0,6.0,3.0,2.0,0.0,9.0,500,1416.24,0,441659,0,0,7,1,1,0,5940,1080,4320,2003,0
+2.0,1.0,6.0,1.0,2.0,3.0,0.0,3.0,4.0,5.0,1.0,0.0,10.0,1000,1484.48,0,613849,50700,-36300,10,1,2,3,63030,5730,45840,1996,0
+0.0,0.0,5.0,4.0,0.0,3.0,1.0,2.0,4.0,3.0,2.0,0.0,2.0,2000,1316.63,0,613178,43900,0,13,3,2,0,84500,13000,58500,2009,0
+2.0,0.0,6.0,2.0,0.0,2.0,0.0,2.0,4.0,6.0,1.0,2.0,12.0,2000,1312.75,0,471453,81300,0,10,3,2,2,80740,7340,58720,2014,1
+1.0,0.0,1.0,2.0,0.0,2.0,0.0,0.0,4.0,3.0,2.0,0.0,12.0,500,922.67,0,473611,47400,0,15,3,2,1,65520,9360,46800,2011,1
+1.0,1.0,4.0,2.0,2.0,1.0,0.0,1.0,6.0,0.0,1.0,1.0,8.0,1000,1012.78,0,469126,43700,0,18,1,2,1,104610,19020,66570,1999,1
+2.0,0.0,1.0,4.0,2.0,2.0,1.0,3.0,4.0,5.0,0.0,2.0,4.0,500,1337.56,0,605141,0,0,18,1,1,2,74700,7470,52290,2010,0
+1.0,0.0,2.0,0.0,0.0,2.0,2.0,3.0,4.0,0.0,2.0,0.0,3.0,1000,1248.05,0,443550,37500,-54000,3,3,1,2,53280,5920,47360,2015,0
+2.0,1.0,2.0,0.0,2.0,2.0,2.0,1.0,5.0,5.0,1.0,0.0,3.0,1000,1878.44,0,450746,0,-76000,2,1,0,0,59070,5370,48330,2003,0
+2.0,0.0,0.0,3.0,0.0,3.0,0.0,2.0,6.0,3.0,1.0,0.0,8.0,500,1195.01,0,476227,60700,-54300,13,3,0,2,42700,0,36600,2011,1
+2.0,0.0,3.0,5.0,0.0,2.0,0.0,1.0,4.0,4.0,1.0,1.0,3.0,1000,1711.72,0,463678,0,0,21,3,2,2,63250,5750,46000,2002,1
+2.0,0.0,6.0,4.0,0.0,2.0,0.0,1.0,4.0,3.0,0.0,2.0,11.0,2000,1443.32,0,613287,0,0,19,3,0,2,47790,5310,37170,1995,1
+1.0,0.0,1.0,2.0,2.0,1.0,2.0,3.0,1.0,0.0,0.0,1.0,3.0,1000,828.42,3000000,467762,0,0,10,1,2,2,56000,5600,44800,2009,0
+1.0,1.0,3.0,0.0,1.0,0.0,3.0,3.0,1.0,0.0,2.0,0.0,10.0,500,1220.86,0,436784,55400,-40400,4,1,1,2,4320,0,3360,2003,0
+2.0,0.0,0.0,3.0,0.0,2.0,0.0,2.0,2.0,4.0,1.0,0.0,4.0,2000,1486.04,0,615688,0,-56200,1,3,2,3,64100,12820,44870,2014,1
+1.0,0.0,4.0,5.0,0.0,2.0,2.0,0.0,3.0,2.0,0.0,0.0,7.0,2000,1223.39,0,452218,0,0,17,3,1,3,65440,8180,49080,2014,0
+2.0,1.0,3.0,1.0,2.0,3.0,2.0,1.0,5.0,4.0,0.0,0.0,12.0,2000,1260.32,6000000,460760,0,-79800,16,1,1,2,45500,9100,31850,2009,0
+0.0,0.0,2.0,0.0,0.0,3.0,0.0,0.0,5.0,6.0,1.0,2.0,11.0,2000,1290.74,5000000,430832,58300,0,6,3,2,0,78870,7170,57360,2013,0
+1.0,0.0,5.0,3.0,0.0,3.0,0.0,0.0,4.0,1.0,0.0,0.0,5.0,2000,1375.29,0,609226,0,0,11,3,0,1,56160,6240,43680,2015,1
+0.0,0.0,6.0,1.0,0.0,2.0,1.0,1.0,4.0,6.0,1.0,0.0,2.0,1000,1281.27,0,447442,68900,0,9,3,0,3,65500,6550,52400,2010,0
+2.0,0.0,4.0,4.0,2.0,2.0,2.0,1.0,6.0,2.0,1.0,0.0,9.0,500,1203.17,0,455810,56700,-65600,11,1,0,0,63250,11500,46000,1997,0
+1.0,0.0,5.0,5.0,1.0,0.0,1.0,3.0,0.0,0.0,0.0,1.0,2.0,1000,1050.24,0,456789,30700,0,7,1,0,0,3600,360,2520,2013,1
+1.0,0.0,6.0,3.0,1.0,0.0,1.0,3.0,4.0,0.0,1.0,1.0,13.0,2000,1112.04,6000000,472209,52800,-54300,5,1,1,3,4290,780,2730,1998,0
+0.0,0.0,4.0,5.0,2.0,3.0,2.0,0.0,4.0,4.0,1.0,0.0,5.0,2000,1124.47,0,616161,0,-45100,5,1,0,1,90530,16460,57610,2003,0
+2.0,1.0,5.0,1.0,2.0,1.0,2.0,3.0,6.0,2.0,1.0,1.0,11.0,1000,1328.26,0,613921,42300,-45800,17,1,1,1,60840,13520,40560,2011,0
+2.0,1.0,5.0,4.0,0.0,3.0,2.0,2.0,0.0,5.0,2.0,1.0,7.0,1000,1270.55,0,478532,0,-72100,10,3,2,3,84920,7720,61760,2006,1
+2.0,1.0,0.0,2.0,3.0,0.0,3.0,3.0,4.0,0.0,0.0,1.0,5.0,500,1172.82,4000000,440680,82100,0,8,1,1,3,3900,780,2730,2010,0
+2.0,0.0,1.0,2.0,3.0,0.0,1.0,3.0,4.0,0.0,0.0,0.0,2.0,2000,1512.58,0,452496,47600,0,7,1,1,1,2520,280,1960,1997,0
+2.0,0.0,4.0,5.0,0.0,3.0,0.0,2.0,4.0,6.0,0.0,0.0,4.0,2000,1217.69,0,440106,24000,0,6,3,1,0,53460,9720,34020,2004,1
+2.0,1.0,5.0,4.0,2.0,2.0,1.0,1.0,2.0,5.0,0.0,2.0,3.0,2000,1190.6,0,434206,0,-45300,17,1,1,3,43230,7860,27510,2001,0
+1.0,0.0,3.0,4.0,1.0,0.0,3.0,3.0,4.0,3.0,1.0,0.0,9.0,500,1259.02,0,439534,67000,-53600,8,1,2,2,5640,940,3760,2005,0
+1.0,1.0,3.0,0.0,0.0,3.0,2.0,3.0,4.0,5.0,1.0,1.0,8.0,500,1451.54,3000000,473412,0,0,13,4,2,3,65070,7230,43380,2003,0
+1.0,1.0,2.0,1.0,0.0,1.0,1.0,3.0,4.0,4.0,1.0,2.0,13.0,1000,1202.75,0,602289,57900,-90100,23,3,0,2,79560,6630,59670,2003,0
+2.0,0.0,3.0,5.0,3.0,0.0,1.0,3.0,4.0,6.0,2.0,2.0,10.0,1000,1489.24,6000000,608335,0,-45000,15,1,2,2,8060,1240,5580,2004,0
