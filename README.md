@@ -18,6 +18,8 @@
 
 `pip install -r requirements.txt`
 
+files will be stored in artifacts folder
+
 
 Workflow to be followed : 
 
