@@ -24,17 +24,11 @@ class DataTransformation:
 
     def get_data_transformation(self):
         try:
-            numerical_columns = ['policy_deductable', 'policy_annual_premium', 'umbrella_limit',
-                                'insured_zip', 'capital-gains', 'capital-loss',
-                                'incident_hour_of_the_day', 'number_of_vehicles_involved',
-                                'bodily_injuries', 'witnesses', 'total_claim_amount', 'injury_claim',
-                                'vehicle_claim', 'auto_year']
+            numerical_columns = ['bodily_injuries', 'witnesses']
 
-            categorical_columns = ['policy_state', 'insured_sex', 'insured_education_level',
-                                    'insured_relationship', 'incident_type', 'collision_type',
-                                    'incident_severity', 'authorities_contacted', 'incident_state',
-                                    'incident_city', 'property_damage', 'police_report_available',
-                                    'auto_make']
+            categorical_columns = ['insured_sex', 'insured_relationship', 'collision_type',
+                                'incident_severity', 'incident_state', 'incident_city',
+                                 'property_damage', 'police_report_available']
 
             num_pipeline = Pipeline(
                 steps = [

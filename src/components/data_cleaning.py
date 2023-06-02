@@ -32,15 +32,22 @@ class DataCleaning:
 
             os.makedirs(os.path.dirname(self.cleaning_config.train_data_path_cleaned), exist_ok=True)
             logging.info("directory created")
-
+            
+                        
+            logging.info("Dropping some columns")
+            
             df1["fraud_reported"].replace({"N": 0, "Y": 1}, inplace=True)
             df2["fraud_reported"].replace({"N": 0, "Y": 1}, inplace=True)
-
+            
+            logging.info("Mannual encoding the target column")
+            
+            logging.info("Data cleaning completed")
+            
             df1.to_csv(self.cleaning_config.train_data_path_cleaned,index=False,header=True)
-            logging.info('df1 saved')
+            logging.info('df1 saved as dataframe')
 
             df2.to_csv(self.cleaning_config.test_data_path_cleaned,index=False,header=True)
-            logging.info('df2 saved')
+            logging.info('df2 saved as dataframe')
 
             logging.info("Train test data cleaned")
 

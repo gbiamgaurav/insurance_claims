@@ -27,19 +27,34 @@ class PredictPipeline:
             raise CustomException(str(e), sys)
 
 class CustomData:
-    def __init__(self, incident_severity, incident_type,
-                 policy_annual_premium):
+    def __init__(self,insured_sex,insured_relationship,collision_type,
+       incident_severity,incident_state,incident_city,
+       property_damage,police_report_available,bodily_injuries,witnesses):
         
+        self.insured_sex = insured_sex
+        self.insured_relationship = insured_relationship
+        self.collision_type = collision_type
         self.incident_severity = incident_severity
-        self.incident_type = incident_type
-        self.policy_annual_premium = policy_annual_premium
+        self.incident_state = incident_state
+        self.incident_city = incident_city
+        self.property_damage = property_damage
+        self.police_report_available = police_report_available
+        self.bodily_injuries = bodily_injuries
+        self.witnesses = witnesses
 
     def get_data_as_dataframe(self):
         try:
             custom_data_input_dict = {
+                "insured_sex": [self.insured_sex],
+                "insured_relationship": [self.insured_relationship],
+                "collision_type": [self.collision_type],
                 "incident_severity": [self.incident_severity],
-                "incident_type": [self.incident_type],
-                "policy_annual_premium": [self.policy_annual_premium]
+                "incident_state": [self.incident_state],
+                "incident_city": [self.incident_city],
+                "property_damage": [self.property_damage],
+                "police_report_available": [self.police_report_available],
+                "bodily_injuries": [self.bodily_injuries],
+                "witnesses": [self.witnesses]
             }
 
             return pd.DataFrame(custom_data_input_dict)
