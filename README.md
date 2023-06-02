@@ -18,7 +18,9 @@
 
 `pip install -r requirements.txt`
 
-files will be stored in artifacts folder
+3. Run the app
+
+`streamlit run app.py`
 
 
 Workflow to be followed : 

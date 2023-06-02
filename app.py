@@ -13,7 +13,7 @@ def index():
 
 
 def predict_datapoint():
-    st.title("Predict Data Point")
+    st.title("Insurance Claim Prediction")
     st.write("Enter the required information:")
 
     insured_sex = st.selectbox("Sex", ["FEMALE", "MALE"])

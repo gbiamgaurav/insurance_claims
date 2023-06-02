@@ -1,0 +1,201 @@
+insured_sex,insured_relationship,collision_type,incident_severity,incident_state,incident_city,property_damage,bodily_injuries,witnesses,police_report_available,fraud_reported
+FEMALE,not-in-family,Rear Collision,Total Loss,WV,Springfield,YES,1,3,Not Available,0
+FEMALE,husband,Front Collision,Total Loss,NC,Riverwood,Others,2,3,YES,0
+FEMALE,husband,Rear Collision,Minor Damage,WV,Riverwood,Others,1,3,Not Available,0
+MALE,unmarried,Front Collision,Total Loss,SC,Northbrook,NO,0,0,NO,0
+FEMALE,not-in-family,Others,Trivial Damage,SC,Arlington,YES,2,0,YES,0
+FEMALE,wife,Front Collision,Minor Damage,SC,Columbus,Others,0,2,Not Available,0
+MALE,not-in-family,Side Collision,Major Damage,SC,Springfield,YES,1,2,NO,0
+FEMALE,not-in-family,Side Collision,Minor Damage,PA,Northbrook,Others,0,2,NO,1
+MALE,own-child,Side Collision,Total Loss,SC,Columbus,NO,2,3,Not Available,0
+FEMALE,other-relative,Others,Minor Damage,VA,Riverwood,Others,0,0,NO,0
+FEMALE,husband,Others,Minor Damage,WV,Arlington,NO,0,3,YES,0
+FEMALE,husband,Front Collision,Minor Damage,NY,Springfield,NO,1,1,YES,0
+MALE,own-child,Others,Minor Damage,WV,Hillsdale,YES,2,1,YES,0
+MALE,own-child,Rear Collision,Major Damage,SC,Columbus,YES,2,3,Not Available,1
+FEMALE,own-child,Front Collision,Major Damage,NY,Northbrook,Others,0,0,Not Available,1
+FEMALE,own-child,Others,Minor Damage,NC,Arlington,YES,1,3,Not Available,0
+FEMALE,unmarried,Side Collision,Minor Damage,PA,Columbus,NO,1,3,Not Available,0
+FEMALE,not-in-family,Side Collision,Major Damage,WV,Riverwood,YES,0,3,NO,1
+MALE,wife,Rear Collision,Major Damage,SC,Arlington,YES,0,3,Not Available,1
+MALE,other-relative,Side Collision,Major Damage,NY,Springfield,YES,0,1,YES,1
+MALE,own-child,Rear Collision,Minor Damage,SC,Arlington,Others,2,1,Not Available,0
+FEMALE,unmarried,Others,Trivial Damage,WV,Riverwood,NO,0,1,NO,0
+FEMALE,own-child,Side Collision,Total Loss,VA,Riverwood,Others,1,2,YES,0
+FEMALE,other-relative,Others,Trivial Damage,SC,Columbus,NO,1,1,NO,0
+FEMALE,other-relative,Others,Minor Damage,NC,Hillsdale,NO,2,0,NO,0
+MALE,unmarried,Side Collision,Minor Damage,NY,Riverwood,NO,1,0,Not Available,0
+FEMALE,unmarried,Side Collision,Major Damage,WV,Northbend,YES,1,0,YES,0
+MALE,not-in-family,Rear Collision,Minor Damage,WV,Riverwood,YES,2,3,Not Available,1
+MALE,other-relative,Side Collision,Minor Damage,SC,Riverwood,NO,2,1,NO,0
+FEMALE,own-child,Side Collision,Minor Damage,WV,Columbus,NO,0,3,Not Available,0
+MALE,own-child,Rear Collision,Minor Damage,WV,Springfield,YES,2,0,YES,0
+FEMALE,not-in-family,Front Collision,Total Loss,VA,Springfield,NO,0,2,YES,0
+FEMALE,own-child,Side Collision,Minor Damage,NY,Riverwood,Others,2,1,YES,0
+FEMALE,own-child,Side Collision,Minor Damage,NC,Northbend,YES,1,1,YES,0
+MALE,other-relative,Front Collision,Major Damage,NC,Columbus,YES,2,1,NO,0
+MALE,own-child,Front Collision,Major Damage,NY,Riverwood,YES,2,1,NO,0
+MALE,not-in-family,Rear Collision,Minor Damage,WV,Springfield,Others,0,2,Not Available,0
+FEMALE,wife,Others,Trivial Damage,WV,Arlington,Others,1,2,NO,0
+FEMALE,own-child,Side Collision,Total Loss,NY,Northbrook,YES,0,0,NO,0
+FEMALE,own-child,Side Collision,Minor Damage,VA,Hillsdale,NO,1,1,NO,0
+MALE,husband,Side Collision,Major Damage,NY,Columbus,Others,0,2,YES,1
+FEMALE,not-in-family,Side Collision,Major Damage,VA,Springfield,YES,0,3,NO,1
+FEMALE,other-relative,Side Collision,Total Loss,SC,Hillsdale,Others,0,0,Not Available,0
+FEMALE,wife,Side Collision,Major Damage,SC,Riverwood,NO,2,1,Not Available,1
+MALE,other-relative,Rear Collision,Major Damage,PA,Northbend,NO,1,0,Not Available,0
+MALE,unmarried,Rear Collision,Minor Damage,PA,Northbrook,NO,1,0,Not Available,1
+FEMALE,wife,Rear Collision,Minor Damage,WV,Riverwood,NO,0,1,NO,0
+MALE,wife,Front Collision,Minor Damage,NC,Riverwood,Others,2,0,Not Available,0
+MALE,unmarried,Others,Trivial Damage,VA,Hillsdale,YES,2,1,YES,0
+FEMALE,other-relative,Others,Trivial Damage,NC,Arlington,NO,0,3,YES,1
+MALE,unmarried,Rear Collision,Total Loss,WV,Springfield,NO,0,1,NO,0
+MALE,other-relative,Front Collision,Total Loss,NC,Arlington,YES,2,1,Not Available,0
+MALE,husband,Front Collision,Major Damage,NC,Arlington,Others,2,0,Not Available,1
+MALE,not-in-family,Rear Collision,Total Loss,WV,Arlington,YES,1,3,YES,0
+MALE,own-child,Front Collision,Total Loss,WV,Northbend,Others,2,2,Not Available,1
+MALE,husband,Side Collision,Major Damage,SC,Columbus,NO,0,0,Not Available,0
+MALE,husband,Front Collision,Minor Damage,NY,Arlington,NO,2,2,Not Available,0
+FEMALE,other-relative,Front Collision,Total Loss,NY,Northbend,YES,2,2,Not Available,0
+FEMALE,own-child,Front Collision,Minor Damage,NY,Springfield,NO,2,2,NO,0
+MALE,own-child,Others,Trivial Damage,VA,Hillsdale,Others,0,0,Not Available,0
+MALE,wife,Front Collision,Minor Damage,PA,Hillsdale,YES,2,2,YES,0
+MALE,not-in-family,Others,Minor Damage,VA,Northbend,NO,0,1,YES,0
+FEMALE,husband,Rear Collision,Major Damage,NC,Arlington,YES,1,3,NO,0
+MALE,not-in-family,Others,Trivial Damage,WV,Columbus,NO,0,1,NO,0
+MALE,other-relative,Side Collision,Minor Damage,SC,Hillsdale,Others,0,1,YES,0
+MALE,husband,Others,Minor Damage,WV,Northbrook,YES,1,1,NO,0
+FEMALE,not-in-family,Front Collision,Total Loss,WV,Northbend,YES,1,0,Not Available,0
+FEMALE,husband,Front Collision,Minor Damage,NY,Hillsdale,NO,1,0,NO,0
+FEMALE,own-child,Side Collision,Major Damage,SC,Hillsdale,Others,2,3,Not Available,1
+FEMALE,not-in-family,Rear Collision,Minor Damage,SC,Northbrook,YES,0,0,YES,0
+FEMALE,own-child,Front Collision,Major Damage,WV,Columbus,NO,1,0,Not Available,0
+FEMALE,not-in-family,Rear Collision,Minor Damage,NY,Northbend,Others,1,2,NO,0
+FEMALE,husband,Side Collision,Total Loss,PA,Hillsdale,Others,2,1,YES,0
+MALE,not-in-family,Rear Collision,Minor Damage,NC,Columbus,NO,1,2,NO,0
+FEMALE,husband,Rear Collision,Major Damage,NC,Northbend,Others,1,0,NO,1
+FEMALE,own-child,Others,Minor Damage,VA,Northbrook,NO,0,2,Not Available,0
+MALE,wife,Front Collision,Major Damage,SC,Northbend,NO,2,1,Not Available,1
+MALE,wife,Front Collision,Major Damage,NC,Columbus,Others,0,3,NO,1
+FEMALE,husband,Side Collision,Total Loss,WV,Springfield,Others,2,3,YES,0
+FEMALE,unmarried,Rear Collision,Total Loss,SC,Arlington,NO,1,2,YES,1
+FEMALE,own-child,Side Collision,Minor Damage,NC,Riverwood,NO,2,2,NO,0
+FEMALE,not-in-family,Side Collision,Minor Damage,SC,Springfield,YES,0,1,NO,1
+FEMALE,own-child,Front Collision,Major Damage,SC,Riverwood,Others,0,1,NO,0
+FEMALE,unmarried,Side Collision,Minor Damage,WV,Hillsdale,NO,1,1,NO,0
+FEMALE,not-in-family,Rear Collision,Minor Damage,NY,Northbend,Others,1,0,Not Available,0
+MALE,other-relative,Others,Minor Damage,VA,Springfield,Others,1,2,NO,0
+MALE,wife,Rear Collision,Major Damage,NY,Arlington,Others,0,1,YES,0
+FEMALE,wife,Front Collision,Major Damage,SC,Columbus,YES,0,2,Not Available,0
+MALE,not-in-family,Rear Collision,Total Loss,NY,Columbus,Others,1,1,YES,0
+MALE,own-child,Rear Collision,Minor Damage,NY,Arlington,YES,0,0,Not Available,0
+MALE,not-in-family,Rear Collision,Minor Damage,NY,Springfield,Others,0,2,YES,1
+FEMALE,husband,Side Collision,Total Loss,SC,Northbrook,NO,2,0,YES,0
+MALE,other-relative,Rear Collision,Minor Damage,SC,Northbend,NO,0,2,YES,0
+FEMALE,not-in-family,Rear Collision,Total Loss,WV,Hillsdale,Others,2,3,Not Available,1
+MALE,husband,Front Collision,Minor Damage,SC,Riverwood,NO,1,2,Not Available,0
+MALE,other-relative,Side Collision,Major Damage,PA,Riverwood,Others,1,2,Not Available,0
+FEMALE,husband,Rear Collision,Minor Damage,NY,Arlington,YES,1,3,NO,0
+FEMALE,not-in-family,Others,Trivial Damage,WV,Arlington,NO,0,1,YES,0
+MALE,own-child,Front Collision,Major Damage,WV,Northbend,YES,2,2,YES,1
+FEMALE,own-child,Front Collision,Minor Damage,NY,Arlington,Others,0,1,Not Available,0
+MALE,wife,Front Collision,Total Loss,NY,Columbus,NO,2,2,YES,0
+FEMALE,other-relative,Rear Collision,Major Damage,NC,Northbend,Others,1,0,NO,1
+MALE,other-relative,Front Collision,Minor Damage,NY,Northbrook,Others,1,0,Not Available,0
+MALE,other-relative,Side Collision,Total Loss,SC,Arlington,YES,1,0,YES,0
+FEMALE,wife,Others,Trivial Damage,SC,Columbus,Others,0,2,YES,1
+MALE,wife,Front Collision,Minor Damage,NY,Riverwood,Others,2,2,Not Available,0
+FEMALE,not-in-family,Side Collision,Minor Damage,SC,Northbend,YES,1,2,YES,0
+FEMALE,husband,Others,Minor Damage,VA,Hillsdale,NO,0,0,YES,0
+FEMALE,husband,Others,Trivial Damage,SC,Hillsdale,Others,0,1,NO,0
+MALE,not-in-family,Side Collision,Major Damage,NY,Columbus,NO,1,3,NO,0
+FEMALE,not-in-family,Front Collision,Total Loss,WV,Riverwood,Others,0,1,NO,0
+FEMALE,not-in-family,Front Collision,Major Damage,NC,Northbrook,NO,2,2,YES,1
+MALE,wife,Side Collision,Major Damage,WV,Columbus,Others,0,2,Not Available,0
+FEMALE,wife,Side Collision,Minor Damage,SC,Columbus,Others,0,0,Not Available,0
+FEMALE,husband,Front Collision,Minor Damage,SC,Columbus,NO,2,1,Not Available,0
+FEMALE,other-relative,Front Collision,Major Damage,NC,Northbend,YES,1,0,NO,1
+MALE,not-in-family,Front Collision,Major Damage,NY,Northbend,Others,0,2,NO,0
+FEMALE,unmarried,Front Collision,Total Loss,NY,Columbus,Others,2,3,YES,0
+FEMALE,wife,Rear Collision,Total Loss,WV,Northbend,NO,1,2,YES,0
+MALE,unmarried,Rear Collision,Minor Damage,NC,Columbus,Others,1,2,YES,1
+MALE,husband,Others,Trivial Damage,WV,Columbus,Others,2,1,NO,0
+FEMALE,other-relative,Side Collision,Major Damage,WV,Northbrook,Others,0,0,Not Available,1
+MALE,own-child,Rear Collision,Major Damage,NC,Riverwood,NO,2,1,NO,1
+FEMALE,other-relative,Others,Trivial Damage,SC,Riverwood,Others,0,1,NO,0
+MALE,own-child,Rear Collision,Total Loss,SC,Columbus,NO,2,3,NO,1
+FEMALE,not-in-family,Rear Collision,Minor Damage,WV,Arlington,Others,1,0,Not Available,0
+MALE,unmarried,Rear Collision,Minor Damage,NY,Northbrook,NO,0,1,Not Available,0
+FEMALE,unmarried,Rear Collision,Total Loss,SC,Northbend,YES,1,1,Not Available,1
+FEMALE,not-in-family,Rear Collision,Total Loss,NY,Riverwood,NO,0,3,YES,0
+MALE,unmarried,Rear Collision,Minor Damage,SC,Arlington,YES,0,3,Not Available,0
+FEMALE,other-relative,Front Collision,Major Damage,WV,Northbrook,NO,1,3,Not Available,0
+MALE,wife,Others,Trivial Damage,NC,Northbend,NO,0,3,NO,0
+FEMALE,own-child,Others,Trivial Damage,NC,Hillsdale,NO,1,0,NO,0
+FEMALE,unmarried,Front Collision,Minor Damage,NC,Northbrook,YES,0,1,Not Available,0
+FEMALE,other-relative,Front Collision,Major Damage,WV,Northbrook,YES,1,3,Not Available,1
+MALE,not-in-family,Rear Collision,Minor Damage,NY,Arlington,YES,1,2,NO,0
+MALE,other-relative,Side Collision,Minor Damage,SC,Hillsdale,NO,2,0,Not Available,0
+MALE,other-relative,Side Collision,Minor Damage,NC,Springfield,Others,1,2,YES,1
+MALE,own-child,Rear Collision,Major Damage,OH,Arlington,NO,1,3,YES,1
+FEMALE,husband,Rear Collision,Minor Damage,NC,Arlington,NO,1,2,NO,0
+MALE,unmarried,Front Collision,Minor Damage,SC,Springfield,YES,0,2,Not Available,0
+FEMALE,own-child,Rear Collision,Total Loss,SC,Columbus,Others,0,1,Not Available,1
+MALE,other-relative,Others,Trivial Damage,NY,Riverwood,Others,1,3,YES,0
+FEMALE,wife,Others,Trivial Damage,NY,Arlington,NO,2,1,Not Available,1
+MALE,husband,Others,Minor Damage,NC,Arlington,YES,0,0,Not Available,0
+FEMALE,own-child,Front Collision,Major Damage,NY,Riverwood,YES,0,2,YES,0
+FEMALE,own-child,Side Collision,Total Loss,NY,Northbend,NO,0,2,YES,0
+MALE,other-relative,Others,Trivial Damage,PA,Springfield,YES,1,2,NO,0
+MALE,not-in-family,Front Collision,Minor Damage,WV,Northbend,Others,2,3,YES,0
+MALE,husband,Rear Collision,Major Damage,SC,Hillsdale,YES,0,3,YES,0
+FEMALE,not-in-family,Side Collision,Major Damage,NC,Hillsdale,NO,0,1,YES,1
+MALE,not-in-family,Front Collision,Total Loss,WV,Springfield,Others,2,0,Not Available,0
+MALE,other-relative,Side Collision,Major Damage,WV,Springfield,Others,1,1,NO,1
+MALE,own-child,Front Collision,Total Loss,NY,Columbus,YES,2,3,NO,0
+FEMALE,husband,Side Collision,Major Damage,NY,Columbus,Others,0,0,Not Available,0
+FEMALE,own-child,Front Collision,Major Damage,SC,Arlington,NO,2,1,Not Available,1
+MALE,husband,Side Collision,Total Loss,NY,Northbend,NO,2,2,NO,0
+FEMALE,unmarried,Rear Collision,Major Damage,VA,Arlington,Others,2,3,Not Available,0
+MALE,other-relative,Rear Collision,Major Damage,NY,Springfield,YES,2,1,Not Available,1
+MALE,not-in-family,Front Collision,Minor Damage,WV,Hillsdale,NO,2,2,Not Available,0
+MALE,own-child,Rear Collision,Major Damage,NC,Springfield,YES,1,2,YES,0
+FEMALE,husband,Front Collision,Major Damage,NY,Columbus,YES,0,0,NO,0
+MALE,not-in-family,Side Collision,Total Loss,WV,Columbus,Others,0,2,Not Available,1
+FEMALE,other-relative,Side Collision,Major Damage,NY,Springfield,NO,0,2,Not Available,1
+FEMALE,other-relative,Rear Collision,Major Damage,SC,Hillsdale,Others,1,3,YES,1
+MALE,not-in-family,Rear Collision,Major Damage,VA,Hillsdale,NO,2,2,YES,0
+FEMALE,not-in-family,Others,Minor Damage,WV,Northbend,YES,1,0,Not Available,0
+MALE,not-in-family,Side Collision,Major Damage,SC,Riverwood,NO,2,3,Not Available,0
+FEMALE,unmarried,Side Collision,Minor Damage,SC,Northbend,YES,2,0,Not Available,0
+FEMALE,other-relative,Rear Collision,Major Damage,SC,Springfield,NO,2,2,YES,1
+FEMALE,other-relative,Rear Collision,Major Damage,SC,Northbend,YES,2,1,Not Available,1
+MALE,other-relative,Front Collision,Major Damage,WV,Arlington,NO,2,1,NO,1
+FEMALE,unmarried,Rear Collision,Minor Damage,SC,Riverwood,Others,1,2,YES,0
+FEMALE,husband,Rear Collision,Total Loss,SC,Arlington,YES,1,2,Not Available,0
+MALE,husband,Rear Collision,Total Loss,VA,Riverwood,NO,0,0,Not Available,0
+FEMALE,own-child,Side Collision,Major Damage,WV,Northbend,NO,0,2,Not Available,1
+FEMALE,wife,Rear Collision,Major Damage,SC,Northbrook,NO,2,2,NO,1
+FEMALE,unmarried,Rear Collision,Major Damage,SC,Northbend,Others,0,2,YES,1
+FEMALE,other-relative,Front Collision,Total Loss,NY,Arlington,Others,2,2,NO,0
+MALE,husband,Others,Trivial Damage,NY,Arlington,YES,1,2,Not Available,0
+FEMALE,own-child,Rear Collision,Major Damage,OH,Northbrook,NO,2,3,Not Available,1
+FEMALE,wife,Rear Collision,Total Loss,PA,Hillsdale,Others,1,3,Not Available,0
+MALE,not-in-family,Side Collision,Total Loss,VA,Northbrook,Others,1,2,Not Available,0
+FEMALE,husband,Side Collision,Major Damage,VA,Springfield,NO,2,0,YES,0
+FEMALE,own-child,Side Collision,Major Damage,SC,Columbus,Others,0,1,Not Available,1
+FEMALE,not-in-family,Rear Collision,Minor Damage,SC,Springfield,NO,0,3,Not Available,0
+FEMALE,unmarried,Rear Collision,Total Loss,WV,Hillsdale,NO,0,0,Not Available,0
+FEMALE,wife,Others,Minor Damage,NC,Arlington,Others,0,0,NO,1
+FEMALE,own-child,Others,Minor Damage,SC,Arlington,NO,1,3,NO,0
+FEMALE,wife,Side Collision,Total Loss,SC,Northbrook,NO,0,1,Not Available,0
+MALE,not-in-family,Front Collision,Total Loss,WV,Hillsdale,NO,1,1,NO,0
+MALE,unmarried,Side Collision,Total Loss,NC,Riverwood,YES,2,3,NO,1
+MALE,other-relative,Others,Trivial Damage,SC,Arlington,Others,1,3,NO,0
+FEMALE,other-relative,Others,Minor Damage,SC,Arlington,Others,1,1,Not Available,0
+FEMALE,wife,Side Collision,Major Damage,SC,Springfield,Others,1,0,Not Available,1
+MALE,unmarried,Rear Collision,Minor Damage,OH,Riverwood,Others,1,3,YES,0
+FEMALE,unmarried,Others,Trivial Damage,SC,Northbend,NO,2,2,Not Available,0
+MALE,husband,Side Collision,Total Loss,SC,Riverwood,NO,2,3,NO,0
+MALE,not-in-family,Front Collision,Minor Damage,SC,Northbrook,NO,0,2,YES,0
+FEMALE,wife,Others,Minor Damage,SC,Springfield,YES,2,2,YES,0
