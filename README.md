@@ -56,3 +56,19 @@ Run the following commands to create and run docker image
 
 10. Run the docker image in detach mode
 `docker run -d -p 5000:5000 gaurav178829/insurance_claims:latest`
+
+
+Run the commands
+
+`sudo apt-get upgrade`
+`curl -fsSL https://get.docker.com -o get-docker.sh`
+`sudo sh get-docker.sh`
+`sudo usermod -aG docker ubuntu`
+`newgrp docker`
+
+
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_REGION
+AWS_ECR_LOGIN_URI
+ECR_REPOSITORY_NAME
