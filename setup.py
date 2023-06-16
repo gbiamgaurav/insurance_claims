@@ -20,6 +20,8 @@ def get_requirements(file_path:str) -> List:
             requirements.remove(HYPEN_E_DOT)
     
     return requirements
+
+    # test
         
 
 setup(
